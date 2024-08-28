@@ -1,0 +1,402 @@
+
+@font-face {
+    font-family: "Good Times Rg";
+    src: url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.eot");
+    src: url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.woff2")
+        format("woff2"),
+      url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.woff")
+        format("woff"),
+      url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+
+
+
+.point {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  width: 6px;
+  height: 6px;
+  background-color: #ff0000;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.point::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 25px;
+  animation: loop 1s 0s infinite;
+}
+
+@keyframes loop {
+  0% {
+    background-color: #ff0000;
+    width: 1px;
+    height: 1px;
+  }
+  100% {
+    background-color: rgba(0, 255, 0, 0);
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+
+.typewrite{
+   color: rgba(125,225,125,0.75);
+   font-size: 10px;
+   margin-top: -7%;
+   font-family: 'VT323', monospace;
+   text-shadow: 0 0 5px rgba(125,225,125,0.5), 0 0 15px rgba(125,250,125,1);
+}
+
+
+
+
+
+
+
+.card * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 95%;
+  margin-left: 1%;
+}
+.card .teams {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, transparent, #000000, transparent);
+}
+.card .teams > span {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  font-size: 13px;
+  text-wrap: nowrap;
+}
+.card .teams .team-name-info {
+  text-wrap: nowrap;
+  color: #ffffff;
+  max-width: 210px;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  overflow: hidden;
+  display: block;
+}
+.card .teams span.progress-dots {
+  height: 3px;
+  position: relative;
+  width: 60px;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  border-radius: 10px;
+}
+.card .teams span.progress-dots .load {
+  background: linear-gradient(90deg, #3a3dff, #ff2929);
+  display: block;
+  height: 1.5px;
+  width: 3px;
+  bottom: 0;
+  position: absolute;
+  transform: translateX(0px);
+  animation: loading_dots 7.5s ease both infinite;
+}
+@keyframes loading_dots {
+  0% {
+    width: 3px;
+    transform: translateX(0px);
+  }
+  40% {
+    width: 3px;
+    transform: translateX(57px);
+  }
+
+  75% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+  100% {
+    width: 3px;
+    transform: translateX(0px);
+  }
+}
+.card .teams .team-home,
+.card .teams .team-away {
+  padding: 15px 37px;
+  position: relative;
+  overflow: hidden;
+}
+.card .teams .team-away {
+  transform: skew(-41deg, 0deg);
+  border-radius: 10px 10px 30px 10px;
+}
+.card .teams .team-home {
+  border-radius: 10px 10px 10px 30px;
+  transform: skew(41deg, 0deg);
+}
+.card .teams .team-home::after {
+  position: absolute;
+  top: -3px;
+  background: #00caff;
+  content: "";
+  height: 23px;
+  border-radius: 27px;
+  left: -20px;
+  filter: blur(2px);
+  transform: rotate(208deg);
+  width: 20px;
+  box-shadow: 0px 0px 32px #00ffed;
+}
+.card .teams .team-home::before {
+  position: absolute;
+  bottom: -15px;
+  background: #0048ff;
+  content: "";
+  height: 17px;
+  border-radius: 80px;
+  right: 0;
+  filter: blur(1px);
+  transform: translate(-50%, 0%);
+  width: 80%;
+  box-shadow: 0px 0px 32px #0026ff;
+}
+.card .teams .team-away::after {
+  position: absolute;
+  top: -3px;
+  background: #cc9d00;
+  content: "";
+  height: 23px;
+  border-radius: 27px;
+  right: -20px;
+  filter: blur(2px);
+  transform: rotate(208deg);
+  width: 20px;
+  box-shadow: 0px 0px 32px #cc3700;
+}
+.card .teams .team-away::before {
+  position: absolute;
+  bottom: -15px;
+  background: #ff0000;
+  content: "";
+  height: 17px;
+  border-radius: 80px;
+  left: 0;
+  filter: blur(1px);
+  transform: translate(50%, 0%);
+  width: 80%;
+  box-shadow: 0px 0px 32px #d50000;
+}
+
+.card .teams .team-home .team-name-info {
+  transform: skew(-41deg, 0);
+}
+.card .teams .team-away .team-name-info {
+  transform: skew(41deg, 0);
+}
+
+.event-info-banner .info-heading {
+  position: absolute;
+  right: 12px;
+  bottom: 5px;
+  color: rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+.card .event-scoreboard .event-score-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  background: linear-gradient(#1e1e1e 0%, #0c0c0c8e 4%, #1a1419);
+  box-shadow:
+    inset 0 0 1px 0 #2c2c2c,
+    0 0 20px 0 #1313139c;
+  margin: 10px 0;
+}
+.card .event-scoreboard .event-score-container .score-container {
+  font-size: 13px;
+  padding-right: 4%;
+  background: linear-gradient(90deg, #3a3dff, #ff2929);
+  -webkit-background-clip: text;
+  width: 100%;
+  -webkit-text-fill-color: transparent;
+}
+.card .event-scoreboard .event-score-container .current-time-container {
+  font-size: 12px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-family: "Rajdhani", sans-serif;
+  color: #a1a1a1;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+}
+.card
+  .event-scoreboard
+  .event-score-container
+  .current-time-container
+  .event-clock {
+  font-weight: 500;
+  color: #eee;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+.middle{
+   display: flex;
+   text-align: center;
+}
+
+
+.satte{
+   position: absolute;
+   width: 10%;
+   text-align: center;
+  }
+
+.circles {
+  height: 80vmin;
+  position: relative;
+  width: 80vmin;
+  margin-left: 6%;
+  
+  > div {
+    animation: growAndFade 3s infinite ease-out;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  
+  .circle1 {
+    animation-delay: 1s;    
+  }
+  .circle2 {
+    animation-delay: 2s; 
+  }
+  .circle3 {
+    animation-delay: 3s;
+  }
+}
+
+@keyframes growAndFade {
+  0% {
+    opacity: .25;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+.form-btn {
+  width: 80%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: "Good Times Rg";
+}
+
+.form-btn:active {
+  box-shadow: none;
+}
+
+
+
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: -20%;
+  font-family: "Good Times Rg";
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 15px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+
