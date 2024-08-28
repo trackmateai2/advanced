@@ -1,0 +1,132 @@
+body
+{
+    background-image: url('Img/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.avatar{
+   width: 30%;
+   margin-top: 20%;
+}
+
+.login{
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 2%;
+    font-family: 'Righteous', cursive;
+}
+
+.login2{
+    color: #ffffff;
+    font-size:10px;
+    margin-top: -8%;
+    font-family: "Rajdhani", sans-serif;
+}
+
+
+.form{
+   text-align: center;  
+}
+.fields0{
+    width: 60%;
+    text-align: center;
+    margin-left: 10%;
+ }
+ 
+ 
+ 
+ .usernamelabel {
+  display: block;
+  color: white;
+  font-size: 14px;
+  padding: 5px 5px;
+  text-align: left;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.usernameField {
+  display: block;
+  width: 150%; /*250px*/
+  height: 40px;
+  background-color: #292929;
+  border-radius: 30px;
+  border: 2px solid #292929;
+  padding: 0px 12px;
+  outline: none;
+  caret-color: rgb(152, 88, 255);
+  color: rgb(212, 212, 212);
+  font-size: 12px;
+  transition-duration: .2s;
+}
+
+.usernameField:focus,
+.usernameField:valid {
+  border: 2px solid rgb(152, 88, 255);
+  transition-duration: .2s;
+}
+
+
+
+
+
+ .button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: transparent;
+  background-size: 400%;
+  color: #ff0000;
+  border: 1px solid #3d3a4e;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+
+
+/*************************************************************/
+
+
+
+
+
+
+
