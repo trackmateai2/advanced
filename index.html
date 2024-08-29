@@ -21,6 +21,8 @@
    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
    crossorigin=""></script>
    
+   <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.2.2/maptiler-sdk.umd.min.js"></script>
+  <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.2.2/maptiler-sdk.css" rel="stylesheet" />
       <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
       <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
      
@@ -132,20 +134,19 @@
 </div>
 
 
-          <div class="mapDiv" id="mapDiv">
-                <div id="demo" class="demoDiv" ></div>
-                <div id="map" class="map"></div>
-             <script type="text/javascript">
-                   var map = L.map('map').setView([-24.618754837055594, 26.124530124597566], 1);//14
-            
-                   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                   maxZoom: 19,
-                   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">TrackMate</a>'
-                   }).addTo(map);
-                   var marker = L.marker([-24.618754837055594, 26.124530124597566]).addTo(map);
-                   marker.bindPopup("<b><font color='#000000'> ND8 Geo Location </font> ").openPopup();
-             </script> 
-          </div>
+          
+  <div id="map"></div>
+  
+  <script>
+      maptilersdk.config.apiKey = 'wZcU1CjipvciRbMxM5WJ';
+      const map = new maptilersdk.Map({
+        container: 'map', 
+        style: "aquarelle",
+        center: [-22.528362341848485, 23.405620382587117], 
+        zoom: 1,
+      });
+  </script>
+
 
 
 
