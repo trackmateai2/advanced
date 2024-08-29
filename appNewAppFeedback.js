@@ -3,7 +3,7 @@ function feedBack(){
 
              
     
-    var username= document.getElementById("username").value;
+    var username= document.getElementById("email").value;
     
     var myLoginLay = document.getElementById("LoginLay");
     var myMainLay = document.getElementById("MainLay");
