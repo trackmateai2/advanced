@@ -27,10 +27,10 @@ function feedBack(){
 
  if (username=="thuto2018th@gmail.com"){
             phoneImageLay.style.display=("block");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/1/A/yhSJaD-d.jpg";
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04e.jpg";
     
-        mainInfo.innerHTML=("STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 354158222696823</font><br/>  Model: Spark 20<br/>Brand: TECNO <br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
-        moreInfo.innerHTML=("Operating System	Android 13<br/>Chipset	Mediatek MT6769Z Helio G85<br/>Number of CPU Cores	2<br/>RAM	8 GB<br/>Width	75.59 mm<br/>Height	163.59 mm<br/>Thickness	8.45 mm<br/>Weight	190.0 g<br/> DisplayType	LCD_IPS<br/>Diagonal	6.56 inches<br/>Resolution	720x1612 px<br/>Screen-to-body ratio	84.2 %<br/>Pixel density	267 ppi<br/>Colors	16M<br/>Other display Features	, Display refresh rate: 90 Hz ");
+        mainInfo.innerHTML=("STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 350031340339697</font><br/>  Model: Galaxy A04e(SM-A042F)<br/>Brand: Samsung<br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
+        moreInfo.innerHTML=(" Model Info: MOBILE SM-A042F/DS BLACK AFC<br/>Search Term: 350031340339697<br/>IMEI 1: 350031340339697<br/>Serial Number: <font color=#ff0000>R8YX30E3KZJ</font><br/>Model Desc: Galaxy A04e<br/>Model Name: SM-A042F/DS<br/>Model Number: SM-A042FZKDAFC<br/>Warranty Status: Warranty Active<br/>Estimated Warranty End Date: 01-04-2026<br/>Production location: Korea SEC<br/>Production Date: 01-04-2024");
         
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");
