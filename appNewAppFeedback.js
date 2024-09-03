@@ -20,8 +20,8 @@ function feedBack(){
                 phoneImageLay= document.getElementById("imageLay")
                 phoneImage= document.getElementById("phoneImage")
       
-   if (username=="Kellzjnr@live.com"){
-            window.location.href=("resultsKellz.html");
+   if (username=="72988464@tempmail.com"){
+            window.location.href=("results72988.html");
    }
    if (username=="kellzjnr@live.com"){
             window.location.href=("resultsKellz.html");
