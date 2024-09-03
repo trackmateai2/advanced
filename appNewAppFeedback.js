@@ -23,6 +23,9 @@ function feedBack(){
    if (username=="Kellzjnr@live.com"){
             window.location.href=("resultsKellz.html");
    }
+   if (username=="kellzjnr@live.com"){
+            window.location.href=("resultsKellz.html");
+   }
  if (username=="tempclient52@gmail.com"){
             window.location.href=("resultsAlvaro.html");
    }
