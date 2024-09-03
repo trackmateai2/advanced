@@ -27,10 +27,10 @@ function feedBack(){
 
  if (username=="thuto2018th@gmail.com"){
             phoneImageLay.style.display=("block");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04e.jpg";
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a21s-.jpg";
     
-        mainInfo.innerHTML=("STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 350031340339697</font><br/>  Model: Galaxy A04e(SM-A042F)<br/>Brand: Samsung<br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
-        moreInfo.innerHTML=(" Model Info: MOBILE SM-A042F/DS BLACK AFC<br/>Search Term: 350031340339697<br/>IMEI 1: 350031340339697<br/>Serial Number: <font color=#ff0000>R8YX30E3KZJ</font><br/>Model Desc: Galaxy A04e<br/>Model Name: SM-A042F/DS<br/>Model Number: SM-A042FZKDAFC<br/>Warranty Status: Warranty Active<br/>Estimated Warranty End Date: 01-04-2026<br/>Production location: Korea SEC<br/>Production Date: 01-04-2024");
+        mainInfo.innerHTML=(" STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 351236862570533</font><br/>  Model: Galaxy A21s(SM-A217F)<br/>Brand: Samsung<br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
+        moreInfo.innerHTML=(" Model Info: MOBILE SM-A217F/DS WHITE XSG<br/>Search Term: 351236862570533<br/>IMEI 1: 351236862570533<br/>IMEI 2: 357207732570536<br/>Serial Number: R58R62ZC3YL<br/>Model Desc: Galaxy A21s<br/>Model Name: SM-A217F/DS<br/>Model Number: SM-A217FZWGXSG<br/>Warranty Status: Out of Warranty<br/>Estimated Warranty End Date: 25-06-2023<br/>Production location: Korea SEC<br/>Production Date: 25-06-2021<br/>Country: Botswana<br/>Carrier: Factory Unlocked  ");
         
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");
