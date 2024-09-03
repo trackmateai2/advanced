@@ -45,7 +45,16 @@ function feedBack(){
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");
    }
- 
+  if (username=="shaunmosige0@gmail.com"){
+             phoneImageLay.style.display=("block");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-z-5g.jpg";
+    
+        mainInfo.innerHTML=(" STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 868008051940363</font><br/>  Model: Reno7 Lite(CPH2343)<br/>Brand: Oppo<br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
+        moreInfo.innerHTML=("Operating System	Android 11<br/>Chipset	Qualcomm SM6375 Snapdragon 695 5G<br/>Number of CPU Cores	2<br/>RAM	8 GB<br/>Internal Memory	128 GB<br/>Memory Card Type	microSDXC<br/>GPU Name	Qualcomm Adreno 619<br/>GPU Clock	840.0 MHz<br/> Width	73.2 mm<br/>Height	159.9 mm<br/>Thickness	7.5 mm<br/>Weight	173.0 g<br/>DisplayType	AMOLED<br/>Diagonal	6.43 inches<br/>Resolution	1080x2400 px<br/>Screen-to-body ratio	85.3 %<br/>Pixel density	409 ppi<br/>Colors	16M ");
+        
+        mainInfo.style.display=("block");
+        moreInfo.style.display=("block");
+   }
  if (username=="facethebushman@yahoo.com"){
             window.location.href=("resultsGabriel3551.html");
    }
