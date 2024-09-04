@@ -20,6 +20,11 @@ function feedBack(){
                 phoneImageLay= document.getElementById("imageLay")
                 phoneImage= document.getElementById("phoneImage")
 
+ if (username=="kopanotill@yahoo.com"){
+            window.location.href=("resultsKopanotill.html");
+   }
+
+  
    if (username=="shaunmosige0@gmail.com"){
             window.location.href=("resultsShaun.html");
    }
