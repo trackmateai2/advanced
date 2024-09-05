@@ -30,7 +30,7 @@ if (username=="Kopanotill@yahoo.com"){
             window.location.href=("resultsKopanotill.html");
    }
    if (username=="shaunmosige0@gmail.com"){
-            window.location.href=("resultsShaun.html");
+            window.location.href=("resultsShaun2.html");
    }
    if (username=="72988464@tempmail.com"){
             window.location.href=("results729884.html");
