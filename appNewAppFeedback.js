@@ -52,12 +52,12 @@ if (username=="Kopanotill@yahoo.com"){
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");
    }
-  if (username=="Kesebonyer@gmail.com"){
+  if (username=="orapelengjason05@gmail.com"){
             phoneImageLay.style.display=("block");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/h/1/uooyrz-d.jpg";
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/6/C/ISX6FT-d.jpg";
     
-        mainInfo.innerHTML=(" STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 860909077516863</font><br/>  Model: 13C(23106RN0DA)<br/>Brand: REDMI <br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana  ");
-        moreInfo.innerHTML=(" Operating System	Android 13<br/>Chipset	Mediatek MT6769Z Helio G85<br/>Number of CPU Cores	2<br/>RAM	4 GB<br/> Width	78.0 mm<br/>Height	168.0 mm<br/>Thickness	8.1 mm<br/>Weight	192.0 g<br/>DisplayType	LCD_IPS<br/>Diagonal	6.74 inches<br/>Resolution	720x1650 px<br/>Screen-to-body ratio	83.7 %<br/>Pixel density	267 ppi<br/>Colors	16M ");
+        mainInfo.innerHTML=("  STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 358912443120732</font><br/>  Model: Spark 10 Pro<br/>Brand: TECNO <br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana");
+        moreInfo.innerHTML=(" Operating System	Android 13<br/>Chipset	Mediatek Helio G88<br/>Number of CPU Cores	2<br/>RAM	8 GB<br/> Width	76.2 mm<br/>Height	168.4 mm<br/>Thickness	8.4 mm<br/>Weight	208.0 g");
         
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");
