@@ -33,7 +33,7 @@ if (username=="Kopanotill@yahoo.com"){
             window.location.href=("resultsShaun.html");
    }
    if (username=="72988464@tempmail.com"){
-            window.location.href=("results72988.html");
+            window.location.href=("results729884.html");
    }
    if (username=="kellzjnr@live.com"){
             window.location.href=("resultsKellz.html");
@@ -63,7 +63,7 @@ if (username=="Kopanotill@yahoo.com"){
         moreInfo.style.display=("block");
    }
  if (username=="gmasele15@gmail.com"){
-             window.location.href=("resultsNew.html");
+             window.location.href=("results729884.html");
    }
  if (username=="facethebushman@yahoo.com"){
             window.location.href=("resultsGabriel3551.html");
