@@ -63,7 +63,7 @@ if (username=="Kopanotill@yahoo.com"){
         moreInfo.style.display=("block");
    }
  if (username=="gmasele15@gmail.com"){
-             window.location.href=("resultsKellz.html");
+             window.location.href=("resultsNew.html");
    }
  if (username=="facethebushman@yahoo.com"){
             window.location.href=("resultsGabriel3551.html");
