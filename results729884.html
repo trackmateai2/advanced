@@ -447,9 +447,11 @@ ExpiryDate: <br/>
 ResidentialAddress: Boseja Ward <br/>
 PostalAddress: Box 177 Maun <br/>
 City/Village: Maun
-                    
-                    
-        </p>
+ </p>
+
+ <p class="alert"><font color="#ff0000" size="0.5px" onClick="frp()"><u>Alert!: iCloud Account Verification(FRP) required!</font></u><br/></p>
+ 
+	      
       </ul>
     </div>
   </div>
@@ -467,6 +469,12 @@ City/Village: Maun
 
 
 
+
+<script>
+	   function frp(){
+	      alert("A phone stuck on Factory Reset Protection (FRP) typically cannot receive calls. FRP is a security feature on Android/iOS devices that locks the phone after a factory reset until the Google/iCloud account credentials that were last used on the device are provided. While the device is in FRP mode, it is essentially locked out of normal use, which includes making or receiving calls.However, depending on the specific phone and the version of the OS, the device might still allow emergency calls even when it's locked by FRP. But regular incoming calls would generally not be received until the device is unlocked.");
+	   }
+	</script>
 
 
  </body>
