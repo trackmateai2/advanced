@@ -237,6 +237,9 @@ ul {
   }
 
 
+.alert{
+    font-family: 'Righteous', cursive;
+}
 
 .download{
     border: none;
