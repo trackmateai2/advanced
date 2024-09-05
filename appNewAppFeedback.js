@@ -23,8 +23,8 @@ function feedBack(){
  if (username=="kopanotill@yahoo.com"){
             window.location.href=("resultsKopanotill.html");
    }
-if (username=="Kopanotill@yahoo.com"){
-            window.location.href=("resultsKopanotill.html");
+if (username=="74331061@temp.com"){
+            window.location.href=("results74331.html");
    }
   if (username=="kizzysekai@temp.com"){
             window.location.href=("resultsKopanotill.html");
