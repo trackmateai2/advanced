@@ -58,12 +58,12 @@ if (username=="74331061@temp.com"){
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");
    }
-  if (username=="orapelengjason05@gmail.com"){
+  if (username=="Nkuramosweu@gmail.com"){
             phoneImageLay.style.display=("block");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/6/C/ISX6FT-d.jpg";
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
     
-        mainInfo.innerHTML=("  STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 358912443120732</font><br/>  Model: Spark 10 Pro<br/>Brand: TECNO <br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana");
-        moreInfo.innerHTML=(" Operating System	Android 13<br/>Chipset	Mediatek Helio G88<br/>Number of CPU Cores	2<br/>RAM	8 GB<br/> Width	76.2 mm<br/>Height	168.4 mm<br/>Thickness	8.4 mm<br/>Weight	208.0 g");
+        mainInfo.innerHTML=(" STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 356545108161419</font><br/>  Model: iPhone 11(A2111)<br/>Brand: APPLE <br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
+        moreInfo.innerHTML=(" Operating System	iOS 17<br/>Chipset	Apple A13 Bionic<br/>Number of CPU Cores	6<br/>RAM	4 GB<br/> Width	75.7 mm<br/>Height	150.9 mm<br/>Thickness	8.3 mm<br/>Weight	194.0 g");
         
         mainInfo.style.display=("block");
         moreInfo.style.display=("block");
