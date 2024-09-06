@@ -22,6 +22,12 @@ function feedBack(){
 
 
 
+
+
+  if (username=="pikatievidence@gmail.com"){
+            window.location.href=("resultsEvidence.html");
+   }
+
  if (username=="76984847@temp.com"){
             window.location.href=("results76984.html");
    }
