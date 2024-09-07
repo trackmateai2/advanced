@@ -22,7 +22,11 @@ function feedBack(){
 
 
 
+  
 
+if (username=="selokotinabo@gmail.com"){
+            window.location.href=("resultsTinabo.html");
+   }
 
   if (username=="pikatievidence@gmail.com"){
             window.location.href=("resultsEvidence.html");
