@@ -20,13 +20,22 @@ function feedBack(){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=(" 123098 ");
-            model.innerHTML=(" Samsung Galaxy A54 (ADKJ6)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13.jpg";
+            imei.innerHTML=(" 356742913023120 ");
+            model.innerHTML=(" SAMSUNG Galaxy A04e(SM-A042F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
     
         
    }
-
+if (username=="mokgweetsidonald@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=(" 356742913023120 ");
+            model.innerHTML=(" SAMSUNG Galaxy A04e(SM-A042F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
+    
+        
+   }
  
  
  
