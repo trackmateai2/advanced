@@ -16,25 +16,30 @@ function feedBack(){
       
    
 
- if (username=="gmasele15@gmail.com"){
-            window.location.href=("resultsKellz.html");
-        
-   }
   if (username=="certified@tempmail.com"){
             window.location.href=("resultsCertified.html");
         
    }
-if (username=="mokgweetsidonald@gmail.com"){
+if (username=="nkuramosweu@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=(" 356742913023120 ");
-            model.innerHTML=(" SAMSUNG Galaxy A04e(SM-A042F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
+            imei.innerHTML=("356545108161419");
+            model.innerHTML=("APPLE iPhone 11(A2111)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
     
         
    }
- 
+ if (username=="gmasele15@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("356545108161419");
+            model.innerHTML=("APPLE iPhone 11(A2111)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
+    
+        
+   }
  
  
  
