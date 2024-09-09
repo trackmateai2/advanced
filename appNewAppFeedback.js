@@ -17,7 +17,7 @@ function feedBack(){
    
 
  if (username=="gmasele15@gmail.com"){
-            window.location.href=("resultsCertified.html");
+            window.location.href=("resultsKellz.html");
         
    }
   if (username=="certified@tempmail.com"){
