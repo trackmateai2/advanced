@@ -31,16 +31,11 @@ if (username=="nkuramosweu@gmail.com"){
         
    }
  if (username=="gmasele15@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("356545108161419");
-            model.innerHTML=("APPLE iPhone 11(A2111)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
-    
-        
+           window.location.href=("resultsThabololo.html");   
    }
- 
+ if (username=="obuisanyang@gmail.com"){
+           window.location.href=("resultsThabololo.html");   
+   }
  
  
  
