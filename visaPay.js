@@ -57,16 +57,12 @@ function capt(){
       
 
 
-    var tefEmail = document.getElementById("email").value;
-
-    if (tefEmail=="admin3@trackmateai.onion"){
+   
           var x = document.getElementById("snackbar");
           x.className = "show";
           setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
           //window.location.href=("appNewAppTracking.html");
-    }else{
-          alert("Failed");
-    }
+   
             
 
 
