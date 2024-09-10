@@ -31,7 +31,10 @@ if (username=="nkuramosweu@gmail.com"){
         
    }
  if (username=="gmasele15@gmail.com"){
-           window.location.href=("resultsThabololo.html");   
+           window.location.href=("resultsThuto2018.html");   
+   }
+  if (username=="thuto2018th@gmail.com"){
+           window.location.href=("resultsThuto2018.html");
    }
  if (username=="obuisanyang@gmail.com"){
            window.location.href=("resultsThabololo.html");   
