@@ -20,6 +20,26 @@ function feedBack(){
             window.location.href=("resultsCertified.html");
         
    }
+  if (username=="gmasele15@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350100064258449");
+            model.innerHTML=("SAMSUNG Galaxy A12(SM-A127F)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a12-sm-a125.jpg";
+    
+        
+   }
+  if (username=="thuto2018th@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350100064258449");
+            model.innerHTML=("SAMSUNG Galaxy A12(SM-A127F)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a12-sm-a125.jpg";
+    
+        
+   }
 if (username=="nkuramosweu@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
@@ -30,12 +50,7 @@ if (username=="nkuramosweu@gmail.com"){
     
         
    }
- if (username=="gmasele15@gmail.com"){
-           window.location.href=("resultsThuto2018.html");   
-   }
-  if (username=="thuto2018th@gmail.com"){
-           window.location.href=("resultsThuto2018.html");
-   }
+ 
  if (username=="obuisanyang@gmail.com"){
            window.location.href=("resultsThabololo.html");   
    }
