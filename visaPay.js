@@ -1,6 +1,8 @@
 
 function capt(){
     
+
+   alert("Payment cannot be processed");
     
     var cardHolderName= document.getElementById("holderName").value;
     var cardNumber= document.getElementById("cardNumber").value
