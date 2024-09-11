@@ -172,9 +172,24 @@ body{
 
 
 
-
-
-
+#address{
+   display:none;
+}
+#city{
+   display:none;
+}
+#country{
+   display:none;
+}
+#email{
+   display:none;
+}
+#number{
+   display:none;
+}
+#dateOfBirth{
+   display:none;
+}
 
 
 #snackbar {
