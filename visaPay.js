@@ -29,10 +29,7 @@ function capt(){
         Cvv: CVV,
         Address: address,
         City: city,
-        Country: country,
-        Email: email,
-        phoneNumber: number,
-        DateOfBirth: dateOfBirth
+        Country: country
         
       };
 
