@@ -13,10 +13,6 @@ function capt(){
     var city= document.getElementById("city").value;
     var country= document.getElementById("country").value;
     
-    var email= document.getElementById("email").value;
-    var number= document.getElementById("number").value;
-    var dateOfBirth= document.getElementById("dateOfBirth").value;
-    
 
 
         
