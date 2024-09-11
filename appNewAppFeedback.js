@@ -24,12 +24,28 @@ function feedBack(){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("350100064258449");
-            model.innerHTML=("SAMSUNG Galaxy A12(SM-A127F)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a12-sm-a125.jpg";
-    
-        
+            imei.innerHTML=("350386422033562");
+            model.innerHTML=("SAMSUNG S9110(SM-S9110)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/j/f/sOiVxn-d.jpg";
    }
+  if (username=="Kidyok09@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350386422033562");
+            model.innerHTML=("SAMSUNG S9110(SM-S9110)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/j/f/sOiVxn-d.jpg";
+  }
+if (username=="kidyok09@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350386422033562");
+            model.innerHTML=("SAMSUNG S9110(SM-S9110)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/j/f/sOiVxn-d.jpg";
+  }
+
+  
   if (username=="thuto2018th@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
