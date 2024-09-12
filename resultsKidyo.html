@@ -1,0 +1,496 @@
+<html>
+<head>
+	<title>ResultsNew</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="resultsNew.css">
+   <style>
+	   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+   </style>
+	  
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     
+</head>
+<body>
+
+
+
+<div class="card">
+
+
+    
+ <div class="mapDiv" id="mapDiv">
+        <div id="demo" class="demoDiv" ></div>
+        <div id="map" class="map"></div>
+     <script type="text/javascript">
+                 
+         var map = L.map('map').setView([-24.664853843068933, 25.529425472763315], 4);//14
+         
+         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+         maxZoom: 19,
+         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">TrackMate</a>'
+         }).addTo(map);
+        
+         
+         
+         var marker = L.marker([-24.664853843068933, 25.529425472763315]).addTo(map);
+
+         marker.bindPopup(" Device Location </b> <br/> <font size=0.5px color=grey>  pinned... ").openPopup();
+     
+     </script>   
+         
+         
+    </div>
+
+
+
+
+
+
+
+  <svg
+    class="card-image"
+    xmlns="http://www.w3.org/2000/svg"
+    width="70"
+    height="70"
+    fill="currentColor"
+    viewBox="0 0 16 16"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M6.825 4.138c.596 2.141-.36 3.593-2.389 4.117a4.4 4.4 0 0 1-2.018.054c-.048-.01.9 2.778 1.522 4.61l.41 1.205a.52.52 0 0 1-.346.659l-.593.19a.55.55 0 0 1-.69-.34L.184 6.99c-.696-2.137.662-4.309 2.564-4.8 2.029-.523 3.402 0 4.076 1.948zm-.868 2.221c.43-.112.561-.993.292-1.969-.269-.975-.836-1.675-1.266-1.563s-.561.994-.292 1.969.836 1.675 1.266 1.563m3.218-2.221c-.596 2.141.36 3.593 2.389 4.117a4.4 4.4 0 0 0 2.018.054c.048-.01-.9 2.778-1.522 4.61l-.41 1.205a.52.52 0 0 0 .346.659l.593.19c.289.092.6-.06.69-.34l2.536-7.643c.696-2.137-.662-4.309-2.564-4.8-2.029-.523-3.402 0-4.076 1.948m.868 2.221c-.43-.112-.561-.993-.292-1.969.269-.975.836-1.675 1.266-1.563s.561.994.292 1.969-.836 1.675-1.266 1.563"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  
+  <div class="card-price-tag">
+    <span class="price-value">Advanced</span>
+  </div>
+  
+  
+  
+  
+  
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="50"
+    width="50"
+    viewBox="0 0 200 350"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-1"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      
+      
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="45"
+    width="45"
+    viewBox="0 0 200 350"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-2"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="50"
+    width="50"
+    viewBox="0 0 200 300"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-3"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="card-info">
+    <div class="left-info">
+      <span class="product-title"
+        >Tracking Report
+        <p> OSINT intelligence Analysis <br/><font color="#ff0000"> Report </font></p>
+        
+  
+
+
+
+    <div class="imageLay" id="imageLay">
+    <image class="phoneImage" id="phoneImage" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"></image>
+    </div>
+
+
+
+
+
+
+
+        <div class="star-rating">
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+              ></path>
+            </svg>
+          </span>
+        </div>
+      </span>
+    </div>
+    
+    
+    
+    
+    <div class="right-info">
+      <ul class="features-list">
+        <li class="list-item">
+          <p class="feature-sub-title">IMEi Number</p>
+          <span class="feature-desc" id="imeiCont">354158222696823</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Device</p>
+          <span class="feature-desc" id="modelCont">iPhone 12 Pro Max(A2411)</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Location</p>
+          <span class="feature-desc">-24.664853843068933, 25.529425472763315</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Number Query</p>
+        </li>
+<p class="intel">
+                
+
+Phone Number: 78294469<br/>
+Name:     Keabetswe <br/>
+Surname: Kenaleone<br/>
+Gender: Male <br/>
+Title: Mr <br/>
+DateOfBirth: 1996/04/10 <br/>
+PlaceOfBirth:<br/>
+ID Type: ID Card <br/>
+ExpiryDate: <br/>
+ResidentialAddress: Mokwena Ward <br/>
+PostalAddress: Box 269 Serowe <br/>
+City/Village: Serowe<br/>
+
+
+
+
+ </p>
+ 
+ <p class="alert"><font color="#ff0000" size="0.5px" onClick="frp()"><u>Alert!: FRP Account Verification required!</font></u><br/></p>
+ 
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<button class="download">Download Intel(PDF)</button>
+
+
+
+
+
+              <script>
+
+                    var imei="350386422033562";
+                    var model="SAMSUNG S9110(SM-S9110)";
+                    var image="data:image/jpeg;base64,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";
+      
+                    document.getElementById("imeiCont").innerText = imei;
+                    document.getElementById("modelCont").innerText = model;
+                    document.getElementById('phoneImage').setAttribute('src', image);
+      
+              </script>
+
+
+
+
+
+
+<script>
+	   function frp(){
+	      alert("A phone stuck on Factory Reset Protection (FRP) typically cannot receive calls. FRP is a security feature on Android/iOS devices that locks the phone after a factory reset until the Google/iCloud account credentials that were last used on the device are provided. While the device is in FRP mode, it is essentially locked out of normal use, which includes making or receiving calls.However, depending on the specific phone and the version of the OS, the device might still allow emergency calls even when it's locked by FRP. But regular incoming calls would generally not be received until the device is unlocked.");
+	   }
+	</script>
+
+
+ </body>
+</html>
