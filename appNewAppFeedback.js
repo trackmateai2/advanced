@@ -28,13 +28,8 @@ function feedBack(){
             model.innerHTML=("SAMSUNG Galaxy A03(SM-A035F)");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a03.jpg";
    }
-  if (username=="Kidyok09@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("350386422033562");
-            model.innerHTML=("SAMSUNG S9110(SM-S9110)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/j/f/sOiVxn-d.jpg";
+  if (username=="kidyok09@gmail.com"){
+            window.location.href=("resultsKidyo.html");
   }
 if (username=="kidyok09@gmail.com"){
             phoneImageLay.style.display=("block");
