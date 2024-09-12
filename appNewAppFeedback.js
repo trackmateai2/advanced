@@ -31,7 +31,7 @@ function feedBack(){
   if (username=="kidyok09@gmail.com"){
             window.location.href=("resultsKidyo.html");
   }
-if (username=="lecoaube@gmail.com	"){
+if (username=="lecoaube@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
