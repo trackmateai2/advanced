@@ -16,9 +16,21 @@ function feedBack(){
       
    
 
-  if (username=="certified@tempmail.com"){
-            window.location.href=("resultsCertified.html");
-        
+  if (username=="prettytlale2@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("863447051747474");
+            model.innerHTML=("HUAWEI P30 Lite(MAR-LX1B)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/D/j/q3Ovgs-d.jpg";
+   }
+  if (username=="seeletsotuduetso@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("357772493176641");
+            model.innerHTML=("SAMSUNG Galaxy A13 5G(SM-A135F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/R/b/jqMU5f-d.jpg";
    }
   if (username=="pearlkenosi4@gmail.com"){
             phoneImageLay.style.display=("block");
@@ -63,7 +75,10 @@ if (username=="nkuramosweu@gmail.com"){
  
  
  
- 
+ if (username=="certified@tempmail.com"){
+            window.location.href=("resultsCertified.html");
+        
+   }
 if (username=="selokotinabo@gmail.com"){
             window.location.href=("resultsTinabo.html");
    }
