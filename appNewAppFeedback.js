@@ -25,12 +25,7 @@ function feedBack(){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/D/j/q3Ovgs-d.jpg";
    }
   if (username=="seeletsotuduetso@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("357772493176641");
-            model.innerHTML=("SAMSUNG Galaxy A13 5G(SM-A135F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/R/b/jqMU5f-d.jpg";
+            window.location.href=("resultsSeeletso3577.html");
    }
   if (username=="pearlkenosi4@gmail.com"){
             phoneImageLay.style.display=("block");
