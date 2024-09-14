@@ -16,6 +16,14 @@ function feedBack(){
       
    
 
+  if (username=="prodonx@yahoo.co.uk"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("356835255948167");
+            model.innerHTML=("SAMSUNG Galaxy A32 4G(SM-A325F)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-4g-new.jpg";
+   }
   if (username=="prettytlale2@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
