@@ -31,16 +31,14 @@ function feedBack(){
             model.innerHTML=("SAMSUNG Galaxy A32 4G(SM-A325F)");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-4g-new.jpg";
    }
-  if (username=="prettytlale2@gmail.com"){
+  
+  if (username=="seeletsotuduetso@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("863447051747474");
-            model.innerHTML=("HUAWEI P30 Lite(MAR-LX1B)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/D/j/q3Ovgs-d.jpg";
-   }
-  if (username=="seeletsotuduetso@gmail.com"){
-            window.location.href=("resultsSeeletso3577.html");
+            imei.innerHTML=("357772493176641");
+            model.innerHTML=("Galaxy A13 4G(SM-A135F/DSN)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13.jpg";
    }
   if (username=="pearlkenosi4@gmail.com"){
             phoneImageLay.style.display=("block");
