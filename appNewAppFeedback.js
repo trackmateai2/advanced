@@ -15,7 +15,14 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
       
    
-
+ if (username=="jonamenjo888@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354433658932384");
+            model.innerHTML=("SAMSUNG Galaxy A04e(SM-A042F)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04e.jpg";
+   }
   if (username=="prodonx@yahoo.co.uk"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
