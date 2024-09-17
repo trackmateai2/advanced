@@ -32,13 +32,13 @@ function feedBack(){
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/huawei-y6-2019-.jpg";
    }
   
-  if (username=="seeletsotuduetso@gmail.com"){
+  if (username=="mosigeponego@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("357772493176641");
-            model.innerHTML=("Galaxy A13 4G(SM-A135F/DSN)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13.jpg";
+            imei.innerHTML=("868008051940363");
+            model.innerHTML=("Oppo Reno7 Z 5G");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-z-5g.jpg";
    }
   if (username=="pearlkenosi4@gmail.com"){
             phoneImageLay.style.display=("block");
