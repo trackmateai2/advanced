@@ -23,13 +23,13 @@ function feedBack(){
             model.innerHTML=("SAMSUNG Galaxy A04e(SM-A042F)");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04e.jpg";
    }
-  if (username=="prodonx@yahoo.co.uk"){
+  if (username=="karabotumi@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("356835255948167");
-            model.innerHTML=("SAMSUNG Galaxy A32 4G(SM-A325F)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-4g-new.jpg";
+            imei.innerHTML=("861453053224159");
+            model.innerHTML=("Huawei Y6 Prime 2019");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/huawei-y6-2019-.jpg";
    }
   
   if (username=="seeletsotuduetso@gmail.com"){
