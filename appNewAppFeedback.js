@@ -23,13 +23,8 @@ function feedBack(){
             model.innerHTML=("Tecno Spark Go 2023");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-go-2023.jpg";
    }
- if (username=="Ogaatlale@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("354999852300529");
-            model.innerHTML=("Tecno Spark Go 2023");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-go-2023.jpg";
+ if (username=="ebbie@temp.com"){
+            window.location.href=("resultsEbbie.html");
    }
   if (username=="karabotumi@gmail.com"){
             phoneImageLay.style.display=("block");
