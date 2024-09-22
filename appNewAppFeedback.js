@@ -15,14 +15,21 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
       
    
- 
+  if (username=="ogaatlale@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("353102450743569");
+            model.innerHTML=(" TECNO Spark 10 5G");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/x/h/HbJQI8-d.jpg";
+   }
  if (username=="gmasele15@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("354158222696823");
-            model.innerHTML=(" Tecno SPARK 20(KJ5)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-20.jpg";
+            imei.innerHTML=("353102450743569");
+            model.innerHTML=(" TECNO Spark 10 5G");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/x/h/HbJQI8-d.jpg";
    }
  if (username=="ebbie@temp.com"){
             window.location.href=("resultsEbbie.html");
@@ -36,48 +43,17 @@ function feedBack(){
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/huawei-y6-2019-.jpg";
    }
   
-  if (username=="mosigeponego@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("868008051940363");
-            model.innerHTML=("Oppo Reno7 Z 5G");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-z-5g.jpg";
-   }
-  if (username=="pearlkenosi4@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("354860824738008");
-            model.innerHTML=("SAMSUNG Galaxy A03(SM-A035F)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a03.jpg";
-   }
+
   if (username=="kidyok09@gmail.com"){
             window.location.href=("resultsKidyo.html");
   }
-if (username=="lecoaube@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("350644373320416");
-            model.innerHTML=("TECNO Spark 7");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-7.jpg";
-  }
+
 
   
   if (username=="thuto2018th@gmail.com"){
             window.location.href=("resultsThuto35415.html");
    }
-if (username=="nkuramosweu@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("356545108161419");
-            model.innerHTML=("APPLE iPhone 11(A2111)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
-    
-        
-   }
+
  
  if (username=="obuisanyang@gmail.com"){
            window.location.href=("resultsThabololo.html");   
