@@ -15,16 +15,14 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
       
    
- if (username=="pakomoningo172@gmail.com"){
-       alert("3585205087977615-invalid IMEi number");           
- }
- if (username=="shallahmagosi@gmail.com"){
+ 
+ if (username=="gmasele15@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("355685271895459");
-            model.innerHTML=(" iPhone 11 (A2221)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
+            imei.innerHTML=("354158222696823");
+            model.innerHTML=(" Tecno SPARK 20(KJ5)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-20.jpg";
    }
  if (username=="ebbie@temp.com"){
             window.location.href=("resultsEbbie.html");
