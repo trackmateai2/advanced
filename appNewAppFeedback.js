@@ -26,7 +26,7 @@ function feedBack(){
  if (username=="gmasele15@gmail.com"){
             window.location.href=("results72480.html");
    }
- if (username=="72480212@gmail.com"){
+ if (username=="72480212@temp.com"){
             window.location.href=("results72480.html");
    }
  if (username=="egarwe@hotmail.com"){
