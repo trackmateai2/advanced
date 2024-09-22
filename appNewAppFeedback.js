@@ -24,12 +24,10 @@ function feedBack(){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/x/h/HbJQI8-d.jpg";
    }
  if (username=="gmasele15@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("353102450743569");
-            model.innerHTML=(" TECNO Spark 10 5G");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/x/h/HbJQI8-d.jpg";
+            window.location.href=("results72480.html");
+   }
+ if (username=="72480212@gmail.com"){
+            window.location.href=("results72480.html");
    }
  if (username=="egarwe@hotmail.com"){
             phoneImageLay.style.display=("block");
