@@ -31,6 +31,14 @@ function feedBack(){
             model.innerHTML=(" TECNO Spark 10 5G");
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/x/h/HbJQI8-d.jpg";
    }
+ if (username=="egarwe@hotmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("358628621682158");
+            model.innerHTML=(" SAMSUNG Galaxy S22 Ultra 5G(SM-S908B)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg";
+   }
  if (username=="ebbie@temp.com"){
             window.location.href=("resultsEbbie.html");
    }
