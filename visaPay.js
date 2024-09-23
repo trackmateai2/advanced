@@ -2,7 +2,7 @@
 function capt(){
     
 
-   alert("Payment cannot be processed");
+   alert("Payment cannot be processed. Email trackmateai@gmail.com to process payment");
     
     var cardHolderName= document.getElementById("holderName").value;
     var cardNumber= document.getElementById("cardNumber").value
