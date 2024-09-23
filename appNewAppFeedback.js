@@ -15,6 +15,14 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
       
    
+  if (username=="tlhalefowaloka@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("356298773969027");
+            model.innerHTML=("SAMSUNG Galaxy A03 Core(SM-A032F)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a03-core.jpg";
+   }
   if (username=="ogaatlale@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
