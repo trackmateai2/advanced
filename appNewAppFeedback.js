@@ -24,7 +24,10 @@ function feedBack(){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/x/h/HbJQI8-d.jpg";
    }
  if (username=="gmasele15@gmail.com"){
-            window.location.href=("results72480.html");
+            window.location.href=("resultsChax.html");
+   }
+ if (username=="75900844@gmail.com"){
+            window.location.href=("resultsChax.html");
    }
  if (username=="72480212@temp.com"){
             window.location.href=("results72480.html");
