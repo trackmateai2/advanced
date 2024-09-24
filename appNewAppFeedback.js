@@ -14,7 +14,41 @@ function feedBack(){
                    phoneImageLay= document.getElementById("imageLay");
                    phoneImage= document.getElementById("phoneImage");
       
-    if (username=="olebilezeus@gmail.com"){
+
+    if (username=="gmasele15@gmail.com"){
+
+            alert("More Packets loss detected! The device may be experiencing a weak connection. This may affect intel accuracy ");
+      
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("359710394047832");
+            model.innerHTML=("APPLE iPhone 12(A2403)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg";
+   }
+    if (username=="seeletsotuduetso@gmail.com"){
+           
+            alert("More Packets loss detected! The device may be experiencing a weak connection. This may affect intel accuracy ");
+      
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("359710394047832");
+            model.innerHTML=("APPLE iPhone 12(A2403)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg";
+   }
+    if (username=="ashrafprofessor30@gmail.com"){
+           
+            alert("More Packets loss detected! The device may be experiencing a weak connection. This may affect intel accuracy ");
+      
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("359710394047832");
+            model.innerHTML=("APPLE iPhone 12(A2403)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg";
+   }
+  if (username=="olebilezeus@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
