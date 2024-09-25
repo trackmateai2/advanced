@@ -18,7 +18,7 @@ function feedBack(){
     if (username=="gmasele15@gmail.com"){
             window.location.href=("results8675490.html");
    }
-    if (username=="76885909@gmail.com"){
+    if (username=="76885909@temp.com"){
             window.location.href=("results8675490.html");
    }
     if (username=="seeletsotuduetso@gmail.com"){
