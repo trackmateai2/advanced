@@ -49,12 +49,7 @@ function feedBack(){
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg";
    }
   if (username=="74246808@temp.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("357533642069297");
-            model.innerHTML=("SAMSUNG Galaxy A05S(SM-A057F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/L/G/aQRSxV-d.jpg";
+            window.location.href=("resultsKabelopeleta.html");
    }
   if (username=="tlhalefowaloka@gmail.com"){
              window.location.href=("resultsTlhalefo.html");
