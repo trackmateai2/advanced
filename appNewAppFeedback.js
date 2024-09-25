@@ -14,7 +14,14 @@ function feedBack(){
                    phoneImageLay= document.getElementById("imageLay");
                    phoneImage= document.getElementById("phoneImage");
       
-
+if (username=="motlogelwajustin@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350128816057207");
+            model.innerHTML=("SAMSUNG Galaxy A04e(SM-A042F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
+   }
     if (username=="gmasele15@gmail.com"){
             window.location.href=("results8675490.html");
    }
