@@ -23,7 +23,10 @@ if (username=="motlogelwajustin@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
    }
     if (username=="gmasele15@gmail.com"){
-            window.location.href=("results8675490.html");
+            window.location.href=("resultsMasego.html");
+   }
+    if (username=="masego@temp.com"){
+            window.location.href=("resultsMasego.html");
    }
     if (username=="76885909@temp.com"){
             window.location.href=("results8675490.html");
