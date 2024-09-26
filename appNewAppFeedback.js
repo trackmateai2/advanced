@@ -13,7 +13,17 @@ function feedBack(){
                var model = document.getElementById("modelCont");
                    phoneImageLay= document.getElementById("imageLay");
                    phoneImage= document.getElementById("phoneImage");
-      
+
+
+  
+if (username=="jt71577@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354626094823048");
+            model.innerHTML=("SAMSUNG G950F Galaxy S8(SM-G950F)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-.jpg";
+   }
 if (username=="motlogelwajustin@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
