@@ -15,6 +15,14 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
 
 
+  if (username=="kelepileak@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354668223171287");
+            model.innerHTML=("SAMSUNG Galaxy M13(SM-M135FU)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13.jpg";
+   }
   if (username=="jonamenjo888@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
