@@ -16,13 +16,13 @@ function feedBack(){
 
 
   
-if (username=="jt71577@gmail.com"){
+if (username=="kingrastafarah@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("354626094823048");
-            model.innerHTML=("SAMSUNG G950F Galaxy S8(SM-G950F)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-.jpg";
+            imei.innerHTML=("354660977979817");
+            model.innerHTML=("SAMSUNG Galaxy A05(SM-A055F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/x/9/Eq3lPN-d.jpg";
    }
 if (username=="motlogelwajustin@gmail.com"){
             phoneImageLay.style.display=("block");
