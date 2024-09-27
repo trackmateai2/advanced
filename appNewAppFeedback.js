@@ -15,7 +15,14 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
 
 
-  
+  if (username=="jonamenjo888@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354668223171287");
+            model.innerHTML=("TECNO Spark 7 Pro");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-7-pro.jpg";
+   }
 if (username=="kingrastafarah@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
@@ -41,7 +48,7 @@ if (username=="motlogelwajustin@gmail.com"){
     if (username=="76885909@temp.com"){
             window.location.href=("results8675490.html");
    }
-    if (username=="seeletsotuduetso@gmail.com"){
+    if (username=="seele@gmail.com"){
            
             alert("More Packets loss detected! The device may be experiencing a weak connection. This may affect intel accuracy ");
       
@@ -52,7 +59,7 @@ if (username=="motlogelwajustin@gmail.com"){
             model.innerHTML=("APPLE iPhone 12(A2403)");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg";
    }
-    if (username=="ashrafprofessor30@gmail.com"){
+    if (username=="ash@gmail.com"){
            
             alert("More Packets loss detected! The device may be experiencing a weak connection. This may affect intel accuracy ");
       
