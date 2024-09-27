@@ -47,8 +47,11 @@ if (username=="motlogelwajustin@gmail.com"){
             model.innerHTML=("SAMSUNG Galaxy A04e(SM-A042F)");
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
    }
+    if (username=="tshepelang@temp.com"){
+            window.location.href=("resultsTshepelang.html");
+   }
     if (username=="gmasele15@gmail.com"){
-            window.location.href=("resultsMasego.html");
+            window.location.href=("resultsTshepelang.html");
    }
     if (username=="masego@temp.com"){
             window.location.href=("resultsMasego.html");
