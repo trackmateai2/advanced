@@ -50,8 +50,11 @@ if (username=="motlogelwajustin@gmail.com"){
     if (username=="tshepelang@temp.com"){
             window.location.href=("resultsTshepelang.html");
    }
+    if (username=="77967888@temp.com"){
+            window.location.href=("results77968.html");
+   }
     if (username=="gmasele15@gmail.com"){
-            window.location.href=("resultsTshepelang.html");
+            window.location.href=("results77968.html");
    }
     if (username=="masego@temp.com"){
             window.location.href=("resultsMasego.html");
