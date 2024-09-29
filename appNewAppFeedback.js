@@ -15,6 +15,34 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
 
 
+
+
+
+  
+  if (username=="thabo.mapitse@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350597414235136");
+            model.innerHTML=("TECNO Spark 7 Pro");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-7-pro.jpg";
+   }
+  if (username=="jonamenjo888@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("357450476100140");
+            model.innerHTML=("SAMSUNG Galaxy A15(SM-A155F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/4/m/fRrm3u-d.jpg";
+   }
+  if (username=="cgabotsgetse@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("353900108881644");
+            model.innerHTML=("APPLE iPhone 11 Pro Max(A2161)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg";
+   }
   if (username=="kelepileak@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
@@ -22,14 +50,6 @@ function feedBack(){
             imei.innerHTML=("354668223171287");
             model.innerHTML=("SAMSUNG Galaxy M13(SM-M135FU)");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13.jpg";
-   }
-  if (username=="jonamenjo888@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("354668223171287");
-            model.innerHTML=("TECNO Spark 7 Pro");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-7-pro.jpg";
    }
 if (username=="kingrastafarah@gmail.com"){
             phoneImageLay.style.display=("block");
