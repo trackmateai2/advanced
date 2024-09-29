@@ -18,6 +18,12 @@ function feedBack(){
 
 
 
+    if (username=="pamela@temp.com"){
+            window.location.href=("resultsPamela.html");
+   }
+    if (username=="gmasele15@gmail.com"){
+            window.location.href=("resultsPamela.html");
+   }
   
   if (username=="thabo.mapitse@gmail.com"){
             phoneImageLay.style.display=("block");
@@ -71,9 +77,6 @@ if (username=="motlogelwajustin@gmail.com"){
             window.location.href=("resultsTshepelang.html");
    }
     if (username=="77967888@temp.com"){
-            window.location.href=("results77968.html");
-   }
-    if (username=="gmasele15@gmail.com"){
             window.location.href=("results77968.html");
    }
     if (username=="masego@temp.com"){
