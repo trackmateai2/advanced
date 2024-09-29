@@ -25,6 +25,14 @@ function feedBack(){
             window.location.href=("resultsPamela.html");
    }
   
+  if (username=="desirebindu36@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("352524297211164");
+            model.innerHTML=("TECNO Spark 10 Pro");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/6/C/ISX6FT-d.jpg";
+   }
   if (username=="osi.dilebanye@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
