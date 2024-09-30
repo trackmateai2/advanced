@@ -18,16 +18,31 @@ function feedBack(){
 
 
  if (username=="goitsetinah@gmail.com"){
-            alert("86605605986-Invalid IMEi number.IMEi must contain 15digits");
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("866056059861836");
+            model.innerHTML=("VIVO Y21 (2021)(V2111)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-.jpg";
    }
- if (username=="bakangcaiphus89@gmail.com"){
-            alert("86605605986-Invalid IMEi number.IMEi must contain 15digits");
+ if (username=="72643745@temp.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("866056059861836");
+            model.innerHTML=("VIVO Y21 (2021)(V2111)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-.jpg";
    }
     if (username=="pamela@temp.com"){
             window.location.href=("resultsPamela.html");
    }
     if (username=="gmasele15@gmail.com"){
-            alert("86605605986-Invalid IMEi number.IMEi must contain 15digits");
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("866056059861836");
+            model.innerHTML=("VIVO Y21 (2021)(V2111)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-.jpg";
    }
   
   if (username=="desirebindu36@gmail.com"){
