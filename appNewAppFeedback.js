@@ -37,9 +37,9 @@ function feedBack(){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("356724118997365");
-            model.innerHTML=("APPLE iPhone 12 Pro Max(A2410)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg";
+            imei.innerHTML=("350178731250726");
+            model.innerHTML=("SAMSUNG Galaxy A13 5G(SM-A135F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/R/b/jqMU5f-d.jpg";
    }
   if (username=="thabo.mapitse@gmail.com"){
             phoneImageLay.style.display=("block");
