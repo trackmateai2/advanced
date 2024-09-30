@@ -17,12 +17,17 @@ function feedBack(){
 
 
 
-
+ if (username=="goitsetinah@gmail.com"){
+            alert("86605605986-Invalid IMEi number.IMEi must contain 15digits");
+   }
+ if (username=="bakangcaiphus89@gmail.com"){
+            alert("86605605986-Invalid IMEi number.IMEi must contain 15digits");
+   }
     if (username=="pamela@temp.com"){
             window.location.href=("resultsPamela.html");
    }
     if (username=="gmasele15@gmail.com"){
-            window.location.href=("resultsPamela.html");
+            alert("86605605986-Invalid IMEi number.IMEi must contain 15digits");
    }
   
   if (username=="desirebindu36@gmail.com"){
