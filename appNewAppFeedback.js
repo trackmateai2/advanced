@@ -18,6 +18,9 @@ function feedBack(){
  if (username=="kingrastafarah@gmail.com"){
             window.location.href=("resultsKingrasta.html");
    }
+ if (username=="75014687@temp.com"){
+            window.location.href=("results75014687.html");
+   }
 
 
     if (username=="pamela@temp.com"){
