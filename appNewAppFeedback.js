@@ -71,6 +71,14 @@ if (username=="motlogelwajustin@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
    }
 
+if (username=="kevinrakgotla01@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("352980099647189");
+            model.innerHTML=("APPLE iPhone 8 Plus(A1864)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-plus-new.jpg";
+   }
 
 
 
