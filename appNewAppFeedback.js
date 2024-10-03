@@ -80,6 +80,15 @@ if (username=="kevinrakgotla01@gmail.com"){
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-plus-new.jpg";
    }
 
+if (username=="lecoaube@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350644373320416");
+            model.innerHTML=("TECNO Spark 7");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-7.jpg";
+   }
+
 
 
 
@@ -97,10 +106,7 @@ if (username=="kevinrakgotla01@gmail.com"){
     if (username=="pamela@temp.com"){
             window.location.href=("resultsPamela.html");
    }
-    
-  
-  
-    if (username=="tshepelang@temp.com"){
+  if (username=="tshepelang@temp.com"){
             window.location.href=("resultsTshepelang.html");
    }
     if (username=="77967888@temp.com"){
