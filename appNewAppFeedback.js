@@ -15,6 +15,14 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
 
 
+if (username=="jmasebe96@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("357294307962736");
+            model.innerHTML=("SAMSUNG Galaxy A14 5G(SM-A145F)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-4g.jpg";
+   }
 if (username=="kelepileak@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
