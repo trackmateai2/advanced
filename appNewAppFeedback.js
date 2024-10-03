@@ -15,6 +15,31 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
 
 
+if (username=="kelepileak@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("352397458524802");
+            model.innerHTML=("SAMSUNG Galaxy M13(SM-M135FU)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13.jpg";
+   }
+
+if (username=="motlogelwajustin@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354433658817866");
+            model.innerHTML=("SAMSUNG Galaxy A04e(SM-A042F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
+   }
+
+
+
+
+
+
+
+  
  if (username=="kingrastafarah@gmail.com"){
             window.location.href=("resultsKingrasta.html");
    }
@@ -26,14 +51,7 @@ function feedBack(){
     if (username=="pamela@temp.com"){
             window.location.href=("resultsPamela.html");
    }
-    if (username=="gmasele15@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("866056059861836");
-            model.innerHTML=("VIVO Y21 (2021)(V2111)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-.jpg";
-   }
+    
   
   
     if (username=="tshepelang@temp.com"){
