@@ -16,7 +16,9 @@ function feedBack(){
 
 
 
-
+if (username=="madouble@temp.com"){
+           window.location.href=("resultsMadouble.html");
+   }
   
 if (username=="lonemotswiri@gmail.com"){
            alert("89161036069516-Invalid IMEi number");
