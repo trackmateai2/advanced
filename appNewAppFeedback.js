@@ -15,6 +15,12 @@ function feedBack(){
                    phoneImage= document.getElementById("phoneImage");
 
 
+
+
+  
+if (username=="lonemotswiri@gmail.com"){
+           alert("89161036069516-Invalid IMEi number");
+   }
 if (username=="jmasebe96@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
