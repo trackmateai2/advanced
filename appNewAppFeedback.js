@@ -20,7 +20,7 @@ function feedBack(){
    }
  
   if (username=="gmasele15@gmail.com"){
-           window.location.href=("resultsGalemaele.html");
+           window.location.href=("results71727.html");
    }
 if (username=="motlogelwajustin@gmail.com"){
            window.location.href=("resultsMotlogelwa.html");
