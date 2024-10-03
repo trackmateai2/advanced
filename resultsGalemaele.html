@@ -1,0 +1,509 @@
+<html>
+<head>
+	<title>ResultsNew</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="resultsNew.css">
+   <style>
+	   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+   </style>
+	  
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     
+</head>
+<body>
+
+
+
+<div class="card">
+
+
+    
+ <div class="mapDiv" id="mapDiv">
+        <div id="demo" class="demoDiv" ></div>
+        <div id="map" class="map"></div>
+     <script type="text/javascript">
+                 
+         var map = L.map('map').setView([-20.214425875999463, 24.1316034214202], 4);//14
+         
+         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+         maxZoom: 19,
+         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">TrackMate</a>'
+         }).addTo(map);
+        
+         
+         
+         var marker = L.marker([-20.214425875999463, 24.1316034214202]).addTo(map);
+
+         marker.bindPopup(" Device Location </b> <br/> <font size=0.5px color=grey>  pinned... ").openPopup();
+     
+     </script>   
+         
+         
+    </div>
+
+
+
+
+
+
+
+  <svg
+    class="card-image"
+    xmlns="http://www.w3.org/2000/svg"
+    width="70"
+    height="70"
+    fill="currentColor"
+    viewBox="0 0 16 16"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M6.825 4.138c.596 2.141-.36 3.593-2.389 4.117a4.4 4.4 0 0 1-2.018.054c-.048-.01.9 2.778 1.522 4.61l.41 1.205a.52.52 0 0 1-.346.659l-.593.19a.55.55 0 0 1-.69-.34L.184 6.99c-.696-2.137.662-4.309 2.564-4.8 2.029-.523 3.402 0 4.076 1.948zm-.868 2.221c.43-.112.561-.993.292-1.969-.269-.975-.836-1.675-1.266-1.563s-.561.994-.292 1.969.836 1.675 1.266 1.563m3.218-2.221c-.596 2.141.36 3.593 2.389 4.117a4.4 4.4 0 0 0 2.018.054c.048-.01-.9 2.778-1.522 4.61l-.41 1.205a.52.52 0 0 0 .346.659l.593.19c.289.092.6-.06.69-.34l2.536-7.643c.696-2.137-.662-4.309-2.564-4.8-2.029-.523-3.402 0-4.076 1.948m.868 2.221c-.43-.112-.561-.993-.292-1.969.269-.975.836-1.675 1.266-1.563s.561.994.292 1.969-.836 1.675-1.266 1.563"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  
+  <div class="card-price-tag">
+    <span class="price-value">Advanced</span>
+  </div>
+  
+  
+  
+  
+  
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="50"
+    width="50"
+    viewBox="0 0 200 350"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-1"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      
+      
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="45"
+    width="45"
+    viewBox="0 0 200 350"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-2"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="50"
+    width="50"
+    viewBox="0 0 200 300"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-3"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="card-info">
+    <div class="left-info">
+      <span class="product-title"
+        >Tracking Report
+        <p> OSINT intelligence Analysis <br/><font color="#ff0000"> Report </font></p>
+        
+  
+
+
+
+    <div class="imageLay" id="imageLay">
+    <image class="phoneImage" id="phoneImage" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"></image>
+    </div>
+
+
+
+
+
+
+
+        <div class="star-rating">
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+              ></path>
+            </svg>
+          </span>
+        </div>
+      </span>
+    </div>
+    
+    
+    
+    
+    <div class="right-info">
+      <ul class="features-list">
+        <li class="list-item">
+          <p class="feature-sub-title">IMEi Number</p>
+          <span class="feature-desc" id="imeiCont">1234567890123</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Device</p>
+          <span class="feature-desc" id="modelCont">Default_model</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Location</p>
+          <span class="feature-desc">-20.214425875999463, 24.1316034214202</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Last Seen</p>
+          <span class="feature-desc"> 02/10/2024 20:01 </span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Number Query</p>
+        </li>
+<p class="intel">
+                
+
+
+
+
+Network Poor,cannot ping
+
+<!--
+Phone Number: 78294469<br/>
+Name:       Keabetswe <br/>
+Surname: Kenaleone<br/>
+Gender: Male <br/>
+Title: Mr <br/>
+DateOfBirth: 1996/04/10 <br/>
+PlaceOfBirth: <br/>
+ID Type: ID Card <br/>
+ExpiryDate: <br/>
+ResidentialAddress: Ga-Ranta Ward <br/>
+PostalAddress: Box 259 Molepolole <br/>
+City/Village: Molepolole
+--->
+
+
+
+
+
+
+ </p>
+ 
+ <p class="alert"><font color="#ff0000" size="0.5px" onClick="frp()"><u>Alert!: FRP Account Verification required!</font></u><br/></p>
+ 
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<button class="download">Download Intel(PDF)</button>
+
+
+
+
+
+              <script>
+
+                    var imei="868605078091920";
+                    var model="XIAOMI 23129RN51X(23129RN51X)";
+                    var image="data:image/jpeg;base64,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";
+      
+                    document.getElementById("imeiCont").innerText = imei;
+                    document.getElementById("modelCont").innerText = model;
+                    document.getElementById('phoneImage').setAttribute('src', image);
+      
+              </script>
+
+
+
+
+
+
+<script>
+	   function frp(){
+	      alert("A phone stuck on Factory Reset Protection (FRP) typically cannot receive calls. FRP is a security feature on Android/iOS devices that locks the phone after a factory reset until the Google/iCloud account credentials that were last used on the device are provided. While the device is in FRP mode, it is essentially locked out of normal use, which includes making or receiving calls.However, depending on the specific phone and the version of the OS, the device might still allow emergency calls even when it's locked by FRP. But regular incoming calls would generally not be received until the device is unlocked.");
+	   }
+	</script>
+
+
+ </body>
+</html>
