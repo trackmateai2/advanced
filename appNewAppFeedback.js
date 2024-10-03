@@ -14,7 +14,12 @@ function feedBack(){
                    phoneImageLay= document.getElementById("imageLay");
                    phoneImage= document.getElementById("phoneImage");
 
-if (username=="gmasele15@gmail.com"){
+
+  if (username=="75177295@temp.com"){
+           window.location.href=("resultsMinge.html");
+   }
+ 
+  if (username=="gmasele15@gmail.com"){
            window.location.href=("resultsGalemaele.html");
    }
 if (username=="motlogelwajustin@gmail.com"){
