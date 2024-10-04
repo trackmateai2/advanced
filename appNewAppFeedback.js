@@ -45,20 +45,20 @@ if (username=="madouble@temp.com"){
 if (username=="lonemotswiri@gmail.com"){
            alert("89161036069516-Invalid IMEi number");
    }
-if (username=="jmasebe96@gmail.com"){
+if (username=="pramohaladi100@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("357294307962736");
-            model.innerHTML=("SAMSUNG Galaxy A14 5G(SM-A145F)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-4g.jpg";
+            imei.innerHTML=("862134066965314");
+            model.innerHTML=("HUAWEI Nova Y61(EVE-LX9)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/E/K/o6pMOm-d.jpg";
    }
-if (username=="kelepileak@gmail.com"){
+if (username=="kesaobakaivytshoswane@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("352397458524802");
-            model.innerHTML=("SAMSUNG Galaxy M13(SM-M135FU)");
+            imei.innerHTML=("355890563405666");
+            model.innerHTML=("TECNO Pop 7");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13.jpg";
    }
 
@@ -68,7 +68,7 @@ if (username=="motlogelwajustin@gmail.com"){
             
             imei.innerHTML=("354433658817866");
             model.innerHTML=("SAMSUNG Galaxy A04e(SM-A042F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/Q/9/B5fkgh-d.jpg";
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/b/Cky5Wt-d.jpg";
    }
 
 if (username=="kevinrakgotla01@gmail.com"){
