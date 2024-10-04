@@ -137,6 +137,14 @@ if (username=="julchise@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/r/Z/m2puEL-d.jpg";
    }
 
+if (username=="botsalokgotlane31@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("355099962730043");
+            model.innerHTML=("TECNO Pop 7");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/b/Cky5Wt-d.jpg";
+   }
 
   
   
