@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="imeiBlocker.css">
+	<style>
+	   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+	</style>
+</head>
+
+
+
+
+
+          <div class="container">
+	          <div class="loader"></div>
+	          <div class="loader"></div>
+	          <div class="loader"></div>
+          </div>
+
+
+
+
+
+<form class="form" id="myForm">
+    
+    <span class="signup">Device BLOCKER</span>
+    <span class="note"><font color=#ff0000>Note</font>: Device wil be unusable!</span>
+    
+    <label for="usernameField" class="usernamelabel label">Enter IMEi</label>
+    <input type="text" class="usernameField" placeholder="Input IMEi" id="imeiField" required="required">
+    
+    
+    <label for="usernameField" class="usernamelabel label"> DPG Token</label>
+    <input type="text" class="usernameField" placeholder="Input token" id="locationField" required="required">
+    
+    
+    <label for="usernameField" class="usernamelabel label">Confirm Email</label>
+    <input type="password" class="usernameField"placeholder="Trackmate username" id="emailField">
+    
+    
+    
+    
+    <div class="form--marketing">
+        <input id="okayToEmail" type="checkbox">
+        <label for="okayToEmail" class="checkbox">
+          I have read terms and conditions
+        </label>
+    </div>
+<button class="form--submit" onClick="block()"> Block Device(BWP350) </button>
+</form>
+
+
+
+
+
+
+
+<script>
+   function block(){
+     alert("Invalid DPG Token");
+   }
+</script>
+
+<body>
+</html>
