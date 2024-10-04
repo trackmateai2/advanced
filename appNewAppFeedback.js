@@ -119,6 +119,25 @@ if (username=="kesegomathothoelo@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/i/m/xBzrJA-d.jpg";
    }
 
+if (username=="osi.dilebanye@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354256832669808");
+            model.innerHTML=("APPLE iPhone 14 Pro(A2890)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg";
+   }
+
+if (username=="julchise@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354296977951272");
+            model.innerHTML=("SAMSUNG Galaxy A02(SM-A022F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/r/Z/m2puEL-d.jpg";
+   }
+
+
   
   
  if (username=="kingrastafarah@gmail.com"){
