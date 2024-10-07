@@ -14,7 +14,9 @@ function feedBack(){
                    phoneImageLay= document.getElementById("imageLay");
                    phoneImage= document.getElementById("phoneImage");
 
-
+if (username=="76184747@temp.com"){
+           window.location.href=("results76184.html");
+   }
 
 if (username=="msiza@temp.com"){
            window.location.href=("resultsMsiza.html");
