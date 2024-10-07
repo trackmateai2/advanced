@@ -17,9 +17,9 @@ function feedBack(){
 
 
 
-
-
-  
+if (username=="77183700@temp.com"){
+           window.location.href=("results77183.html");
+   }
   if (username=="75351789@temp.com"){
            window.location.href=("results75351.html");
    }
