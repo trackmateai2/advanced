@@ -100,13 +100,13 @@ if (username=="chaliwatoletso@gmail.com"){
    }
 
 
-if (username=="ogaatlale@gmail.com"){
+if (username=="kmookodi@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("860726069600293");
-            model.innerHTML=("HUAWEI Nova 12 SE(BNE-LX1)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/3/O/tldSIz-d.jpg";
+            imei.innerHTML=("356680114602005");
+            model.innerHTML=("APPLE iPhone 12 Pro(A2341)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg";
    }
 
 
@@ -146,7 +146,23 @@ if (username=="botsalokgotlane31@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/b/Cky5Wt-d.jpg";
    }
 
+if (username=="loagopule96@gmal.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("353182208662451");
+            model.innerHTML=("SAMSUNG Galaxy A15(SM-A155F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/4/m/fRrm3u-d.jpg";
+   }
   
+if (username=="ubstudent202106205@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("355550430867791");
+            model.innerHTML=("Galaxy Tab S8+ 5G(SM-X806B)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg";
+   }
   
  if (username=="kingrastafarah@gmail.com"){
             window.location.href=("resultsKingrasta.html");
