@@ -179,6 +179,14 @@ if (username=="lucytshimo@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/v/o/7J51a3-d.jpg";
    }
 
+if (username=="thabengg@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("359458689487012");
+            model.innerHTML=("SAMSUNG Galaxy A35(SM-A356E)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/V/8/eEYXYF-d.jpg";
+   }
 
 
 
