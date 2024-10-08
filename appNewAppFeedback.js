@@ -168,6 +168,20 @@ if (username=="ubstudent202106205@gmail.com"){
             model.innerHTML=("Galaxy Tab S8+ 5G(SM-X806B)");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg";
    }
+
+
+if (username=="lucytshimo@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350290812176678");
+            model.innerHTML=("SAMSUNG Galaxy A35(SM-A356E)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/v/o/7J51a3-d.jpg";
+   }
+
+
+
+
   
  if (username=="kingrastafarah@gmail.com"){
             window.location.href=("resultsKingrasta.html");
