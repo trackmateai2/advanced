@@ -62,9 +62,9 @@ if (username=="kesaobakaivytshoswane@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("355890563405666");
-            model.innerHTML=("TECNO Pop 7");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13.jpg";
+            imei.innerHTML=("356943548797142");
+            model.innerHTML=("TECNO Camon 18");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/4/8/ew9Ykl-d.jpg";
    }
 
 if (username=="motlogelwajustin@gmail.com"){
