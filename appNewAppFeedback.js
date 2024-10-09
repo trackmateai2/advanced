@@ -195,6 +195,14 @@ if (username=="thabengg@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/V/8/eEYXYF-d.jpg";
    }
 
+if (username=="johndisang30@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("350331809515336");
+            model.innerHTML=("SAMSUNG Galaxy A53 5G(SM-A536E)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/G/U/1CMFAH-d.jpg";
+   }
 
 
   
