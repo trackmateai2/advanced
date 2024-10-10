@@ -19,7 +19,7 @@ function signUpFirebase(){
         .then(function(user) {
           
           alert("Sign up successful!");
-          window.location.href=("https://trackmateai.github.io/ai/appNewAppAll.html");
+          window.location.href=("https://trackmateai2.github.io/advanced/");
           
         })
         .catch(function(error) {
