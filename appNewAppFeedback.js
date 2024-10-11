@@ -17,6 +17,10 @@ function feedBack(){
 
 
 
+  if (username=="gmasele15@gmail.com"){
+           window.location.href=("results71741714.html");
+   }
+
 if (username=="71741714@temp.com"){
            window.location.href=("results71741714.html");
    }
@@ -57,9 +61,6 @@ if (username=="77183700@temp.com"){
            window.location.href=("resultsMinge.html");
    }
  
-  if (username=="gmasele15@gmail.com"){
-           window.location.href=("results71727.html");
-   }
 if (username=="motlogelwajustin@gmail.com"){
            window.location.href=("resultsMotlogelwa.html");
    }
