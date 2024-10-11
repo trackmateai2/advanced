@@ -18,6 +18,9 @@ function feedBack(){
 
 
 
+if (username=="73024187@temp.com"){
+           window.location.href=("results73024.html");
+   }
 
 if (username=="mubutale@gov.bw"){
            window.location.href=("resultsMubutale.html");
