@@ -42,9 +42,9 @@
         
          
          
-         var marker = L.marker([-22.41027490563828, 26.70630894764881]).addTo(map);
+         //var marker = L.marker([-22.41027490563828, 26.70630894764881]).addTo(map);
 
-         marker.bindPopup(" Device Location </b> <br/> <font size=0.5px color=grey>  pinned... ").openPopup();
+         //marker.bindPopup(" Device Location </b> <br/> <font size=0.5px color=grey>  pinned... ").openPopup();
      
      </script>   
          
@@ -427,7 +427,7 @@
         </li>
         <li class="list-item">
           <p class="feature-sub-title">Location</p>
-          <span class="feature-desc">-22.41027490563828, 26.70630894764881</span>
+          <span class="feature-desc">Refresh page</span>
         </li>
         <li class="list-item">
           <p class="feature-sub-title">Connection</p>
@@ -458,6 +458,7 @@ City/Village: Serowe
 
  </p>
  <p class="alert"><font color="#ff0000" size="0.5px" onClick="frp()"><u>Alert!: FRP Account Verification required!</font></u><br/></p>
+<p class="conflict"><font color="#ff0000" size="0.5px" onClick="conflict()"><u>Conflicting IMEi numbers!</u></font></p>
 
       </ul>
     </div>
@@ -468,7 +469,12 @@ City/Village: Serowe
 
 <button class="download">Download Intel(PDF)</button>
 
-
+<style>	
+.conflict{
+    font-size: 2px;
+    font-family: "Rajdhani", sans-serif;
+}
+</style>
 
 
 
@@ -492,6 +498,9 @@ City/Village: Serowe
 <script>
 	   function frp(){
 	      alert("A phone stuck on Factory Reset Protection (FRP) typically cannot receive calls. FRP is a security feature on Android/iOS devices that locks the phone after a factory reset until the Google/iCloud account credentials that were last used on the device are provided. While the device is in FRP mode, it is essentially locked out of normal use, which includes making or receiving calls.However, depending on the specific phone and the version of the OS, the device might still allow emergency calls even when it's locked by FRP. But regular incoming calls would generally not be received until the device is unlocked.");
+	   }
+	   function conflict(){
+	      alert("Multiple devices(2) with the same IMEi number have been detected!Primary device will always be selected");
 	   }
 	</script>
 
