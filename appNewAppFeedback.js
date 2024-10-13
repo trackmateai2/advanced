@@ -17,6 +17,14 @@ function feedBack(){
 
 
 
+
+
+if (username=="maitumelolesang@gmail.com"){
+           window.location.href=("resultsMaitumelo.html");
+   }
+
+
+
   if (username=="gmasele15@gmail.com"){
            window.location.href=("results71741714.html");
    }
