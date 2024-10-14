@@ -18,6 +18,9 @@ function feedBack(){
 
 
 
+if (username=="75756565@temp.com"){
+           window.location.href=("results75756.html");
+   }
   
 if (username=="gaone00@temp.com"){
            window.location.href=("resultsGaone.html");
