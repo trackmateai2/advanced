@@ -17,7 +17,9 @@ function feedBack(){
 
 
 
-
+if (username=="matsoga@temp.com"){
+           window.location.href=("resultsMatsoga.html");
+   }
 
 if (username=="maitumelo@temp.com"){
            window.location.href=("resultsMaitumelo.html");
