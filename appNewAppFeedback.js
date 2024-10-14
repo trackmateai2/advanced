@@ -250,6 +250,14 @@ if (username=="johndisang30@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/G/U/1CMFAH-d.jpg";
    }
 
+if (username=="kgosimabalane3@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("354747955086523");
+            model.innerHTML=("SAMSUNG Galaxy A15(SM-A155F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/k/mwVZhB-d.jpg";
+   }
 
   
  if (username=="kingrastafarah@gmail.com"){
