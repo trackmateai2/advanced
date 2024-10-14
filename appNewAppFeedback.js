@@ -17,6 +17,9 @@ function feedBack(){
 
 
 
+if (username=="tirelo@temp.com"){
+           window.location.href=("resultsTirelo.html");
+   }
 
 if (username=="dituwe@temp.com"){
            window.location.href=("resultsDituwe.html");
