@@ -17,6 +17,11 @@ function feedBack(){
 
 
 
+
+if (username=="dituwe@temp.com"){
+           window.location.href=("resultsDituwe.html");
+   }
+
 if (username=="matsoga@temp.com"){
            window.location.href=("resultsMatsoga.html");
    }
