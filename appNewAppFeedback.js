@@ -17,6 +17,12 @@ function feedBack(){
 
 
 
+
+  
+if (username=="gaone00@temp.com"){
+           window.location.href=("resultsGaone.html");
+   }
+
 if (username=="tirelo@temp.com"){
            window.location.href=("resultsTirelo.html");
    }
