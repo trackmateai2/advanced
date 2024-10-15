@@ -1,0 +1,502 @@
+<html>
+<head>
+	<title>ResultsNew</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="resultsNew.css">
+   <style>
+	   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+   </style>
+	  
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     
+</head>
+<body>
+
+
+
+<div class="card">
+
+
+    
+ <div class="mapDiv" id="mapDiv">
+        <div id="demo" class="demoDiv" ></div>
+        <div id="map" class="map"></div>
+     <script type="text/javascript">
+                 
+         var map = L.map('map').setView([-24.661915987105417, 25.79079474230762], 4);//14
+         
+         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+         maxZoom: 19,
+         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">TrackMate</a>'
+         }).addTo(map);
+        
+         
+         
+         var marker = L.marker([-24.661915987105417, 25.79079474230762]).addTo(map);
+
+         marker.bindPopup(" Device Location </b> <br/> <font size=0.5px color=grey>  pinned... ").openPopup();
+     
+     </script>   
+         
+         
+    </div>
+
+
+
+
+
+
+
+  <svg
+    class="card-image"
+    xmlns="http://www.w3.org/2000/svg"
+    width="70"
+    height="70"
+    fill="currentColor"
+    viewBox="0 0 16 16"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M6.825 4.138c.596 2.141-.36 3.593-2.389 4.117a4.4 4.4 0 0 1-2.018.054c-.048-.01.9 2.778 1.522 4.61l.41 1.205a.52.52 0 0 1-.346.659l-.593.19a.55.55 0 0 1-.69-.34L.184 6.99c-.696-2.137.662-4.309 2.564-4.8 2.029-.523 3.402 0 4.076 1.948zm-.868 2.221c.43-.112.561-.993.292-1.969-.269-.975-.836-1.675-1.266-1.563s-.561.994-.292 1.969.836 1.675 1.266 1.563m3.218-2.221c-.596 2.141.36 3.593 2.389 4.117a4.4 4.4 0 0 0 2.018.054c.048-.01-.9 2.778-1.522 4.61l-.41 1.205a.52.52 0 0 0 .346.659l.593.19c.289.092.6-.06.69-.34l2.536-7.643c.696-2.137-.662-4.309-2.564-4.8-2.029-.523-3.402 0-4.076 1.948m.868 2.221c-.43-.112-.561-.993-.292-1.969.269-.975.836-1.675 1.266-1.563s.561.994.292 1.969-.836 1.675-1.266 1.563"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  
+  <div class="card-price-tag">
+    <span class="price-value">Advanced</span>
+  </div>
+  
+  
+  
+  
+  
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="50"
+    width="50"
+    viewBox="0 0 200 350"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-1"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      
+      
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="45"
+    width="45"
+    viewBox="0 0 200 350"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-2"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  <svg
+    text-rendering="geometricPrecision"
+    shape-rendering="geometricPrecision"
+    height="50"
+    width="50"
+    viewBox="0 0 200 300"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    class="ring-3"
+  >
+    <defs>
+      <radialGradient
+        gradientTransform="matrix(1 0 0 0.860612 0.5 0.618787)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.5"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ62-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="48.4041%"
+          id="ebT4AgJ0WZ62-fill-0"
+        ></stop>
+        <stop
+          stop-color="#a5a5a5"
+          offset="68.1857%"
+          id="ebT4AgJ0WZ62-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="84.0109%"
+          id="ebT4AgJ0WZ62-fill-2"
+        ></stop>
+      </radialGradient>
+      <radialGradient
+        gradientTransform="matrix(0.999964 0.008506 -0.012489 1.468176 0.496001 0)"
+        gradientUnits="objectBoundingBox"
+        spreadMethod="pad"
+        r="0.803687"
+        cy="0"
+        cx="0"
+        id="ebT4AgJ0WZ63-fill"
+      >
+        <stop
+          stop-color="#313131"
+          offset="66.5167%"
+          id="ebT4AgJ0WZ63-fill-0"
+        ></stop>
+        <stop
+          stop-color="#929292"
+          offset="79.3157%"
+          id="ebT4AgJ0WZ63-fill-1"
+        ></stop>
+        <stop
+          stop-color="#282828"
+          offset="100%"
+          id="ebT4AgJ0WZ63-fill-2"
+        ></stop>
+      </radialGradient>
+    </defs>
+    <path
+      fill="url(#ebT4AgJ0WZ62-fill)"
+      transform="translate(.79738 0.07381)"
+      d="M52.80126,148.52946c0-54.09424,43.1045-97.44452,97.19874-97.44452c54.02838,0,97.83949,43.74533,97.9461,97.74875c0,4.48899-15.841036,8.59818-21.21294,3.870883-.611021-2.50634-.402559-3.828048,0-4.910803c7.308634-19.657872-34.28954-75.61349-76.73315-75.61349s-76.85095,34.40734-76.85095,76.85095s27.897301,76.44983,70.340911,76.44983c1.832594,0,10.881874-3.528414,14.410289,0c4.397368,5.041913,5.519605,8.849302,4.757083,12.041874-.919128,3.848258-1.140559,6.87447-4.632193,9.130546-2.6467.21463-5.32315.32404-8.02514.32404-54.09424,0-97.19874-44.35382-97.19874-98.44806h-.00001Z"
+    ></path>
+    <path
+      fill="url(#ebT4AgJ0WZ63-fill)"
+      transform="matrix(1 0 0-1-20.148641 311.37469)"
+      d="M268.094741,163.50711c0,54.09424-43.068431,97.94629-97.162671,97.94629s-97.94629-43.85205-97.94629-97.94629m9.892327,0c0,42.44361,45.610353,76.85095,88.053963,76.85095s97.162671-34.40734,97.162671-76.85095"
+    ></path>
+  </svg>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="card-info">
+    <div class="left-info">
+      <span class="product-title"
+        >Tracking Report
+        <p> OSINT intelligence Analysis <br/><font color="#ff0000"> Report </font></p>
+        
+  
+
+
+
+    <div class="imageLay" id="imageLay">
+    <image class="phoneImage" id="phoneImage" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"></image>
+    </div>
+
+
+
+
+
+
+
+        <div class="star-rating">
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+              ></path>
+            </svg>
+          </span>
+          <span class="star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              fill="currentColor"
+              class="bi bi-star"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+              ></path>
+            </svg>
+          </span>
+        </div>
+      </span>
+    </div>
+    
+    
+    
+    
+    <div class="right-info">
+      <ul class="features-list">
+        <li class="list-item">
+          <p class="feature-sub-title">IMEi Number</p>
+          <span class="feature-desc" id="imeiCont">1234567890123</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Device</p>
+          <span class="feature-desc" id="modelCont">Default_model</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Location</p>
+          <span class="feature-desc">-24.661915987105417, 25.79079474230762</span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Connection</p>
+          <span class="feature-desc"> Mobile </span>
+        </li>
+        <li class="list-item">
+          <p class="feature-sub-title">Number Query</p>
+        </li>
+<p class="intel">
+                
+
+Phone Number: 76656231 <br/>  
+Name:        Mpho<br/>
+Surname:     Monnahela<br/>
+Gender:      Male <br/>
+Title:       Mr <br/>
+DateOfBirth: 1994/07/10 <br/>
+PlaceOfBirth:<br/>
+ID Type: ID Card <br/>
+ExpiryDate: <br/>
+ResidentialAddress: Newtown Ward <br/>
+PostalAddress: Box 183 Serowe <br/>
+City/Village: Serowe <br/>
+
+
+
+
+
+ </p>
+ <p class="alert"><font color="#ff0000" size="0.5px" onClick="frp()"><u>Alert!: FRP Account Verification required!</font></u><br/></p>
+ </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<button class="download">Download Intel(PDF)</button>
+
+
+
+
+
+              <script>
+
+                    var imei="862109071296186";
+                    var model="XIAOMI 2404ARN45A(2404ARN45A)";
+                    var image="data:image/jpeg;base64,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";
+      
+                    document.getElementById("imeiCont").innerText = imei;
+                    document.getElementById("modelCont").innerText = model;
+                    document.getElementById('phoneImage').setAttribute('src', image);
+      
+              </script>
+
+
+
+
+
+
+<script>
+	   function frp(){
+	      alert("A phone stuck on Factory Reset Protection (FRP) typically cannot receive calls. FRP is a security feature on Android/iOS devices that locks the phone after a factory reset until the Google/iCloud account credentials that were last used on the device are provided. While the device is in FRP mode, it is essentially locked out of normal use, which includes making or receiving calls.However, depending on the specific phone and the version of the OS, the device might still allow emergency calls even when it's locked by FRP. But regular incoming calls would generally not be received until the device is unlocked.");
+	   }
+	   function conflict(){
+	      alert("Multiple devices(2) with the same IMEi number have been detected!Primary device will always be selected");
+	   }
+	</script>
+
+
+ </body>
+</html>
