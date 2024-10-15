@@ -18,6 +18,9 @@ function feedBack(){
 
 
 
+if (username=="kagiso@temp.com"){
+           window.location.href=("resultsBrianKagiso.html");
+   }
 
 if (username=="kgosimabalane3@gmail.com"){
            window.location.href=("resultsKgosimabalane.html");
