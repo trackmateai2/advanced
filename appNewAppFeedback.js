@@ -17,6 +17,12 @@ function feedBack(){
 
 
 
+
+
+if (username=="kgosimabalane3@gmail.com"){
+           window.location.href=("resultsKgosimabalane.html");
+   }
+  
 if (username=="73834466@temp.com"){
            window.location.href=("results73834.html");
    }
