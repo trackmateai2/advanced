@@ -17,6 +17,9 @@ function feedBack(){
 
 
 
+if (username=="gmasele15@gmail.com"){
+           window.location.href=("results72953.html");
+   }
 
 if (username=="kagiso@temp.com"){
            window.location.href=("resultsBrianKagiso.html");
@@ -54,9 +57,6 @@ if (username=="maitumelo@temp.com"){
            window.location.href=("resultsMaitumelo.html");
    }
 if (username=="maitumelolesang@gmail.com"){
-           window.location.href=("resultsMaitumelo.html");
-   }
-  if (username=="gmasele15@gmail.com"){
            window.location.href=("resultsMaitumelo.html");
    }
 
