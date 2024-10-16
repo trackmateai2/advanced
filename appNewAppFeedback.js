@@ -17,6 +17,9 @@ function feedBack(){
 
 
 
+
+
+  
 if (username=="74202145@temp.com"){
            window.location.href=("results74202.html");
    }
@@ -132,145 +135,19 @@ if (username=="kesaobakaivytshoswane@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/4/8/ew9Ykl-d.jpg";
    }
 
-if (username=="motlogelwajustin@gmail.com"){
+if (username=="mubutale@gov.bw"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("354433658817866");
-            model.innerHTML=("SAMSUNG Galaxy A04e(SM-A042F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/b/Cky5Wt-d.jpg";
-   }
-
-if (username=="kevinrakgotla01@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("352980099647189");
-            model.innerHTML=("APPLE iPhone 8 Plus(A1864)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-plus-new.jpg";
-   }
-
-if (username=="lecoaube@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("350644373320416");
-            model.innerHTML=("TECNO Spark 7");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-7.jpg";
+            imei.innerHTML=("866999030227496");
+            model.innerHTML=("HUAWEI P10 Lite(WAS-LX1A)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/huawei-p10-lite.jpg";
    }
 
 
-if (username=="chaliwatoletso@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("354015797114212");
-            model.innerHTML=("SAMSUNG Galaxy A03 Core(SM-A032F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/a/W/kPtLsr-d.jpg";
-   }
 
 
-if (username=="kmookodi@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("356680114602005");
-            model.innerHTML=("APPLE iPhone 12 Pro(A2341)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg";
-   }
-
-
-if (username=="kesegomathothoelo@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("352072270081436");
-            model.innerHTML=("SAMSUNG Galaxy A14 5G(SM-A145F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/i/m/xBzrJA-d.jpg";
-   }
-
-if (username=="osi.dilebanye@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("354256832669808");
-            model.innerHTML=("APPLE iPhone 14 Pro(A2890)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg";
-   }
-
-if (username=="julchise@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("354296977951272");
-            model.innerHTML=("SAMSUNG Galaxy A02(SM-A022F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/r/Z/m2puEL-d.jpg";
-   }
-
-if (username=="botsalokgotlane31@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("355099962730043");
-            model.innerHTML=("TECNO Pop 7");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/b/Cky5Wt-d.jpg";
-   }
-
-if (username=="loagopule96@gmal.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("353182208662451");
-            model.innerHTML=("SAMSUNG Galaxy A15(SM-A155F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/4/m/fRrm3u-d.jpg";
-   }
   
-if (username=="ubstudent202106205@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("355550430867791");
-            model.innerHTML=("Galaxy Tab S8+ 5G(SM-X806B)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg";
-   }
-
-
-if (username=="lucytshimo@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("350290812176678");
-            model.innerHTML=("SAMSUNG Galaxy A35(SM-A356E)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/v/o/7J51a3-d.jpg";
-   }
-
-if (username=="thabengg@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("359458689487012");
-            model.innerHTML=("SAMSUNG Galaxy A35(SM-A356E)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/V/8/eEYXYF-d.jpg";
-   }
-
-if (username=="johndisang30@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("350331809515336");
-            model.innerHTML=("SAMSUNG Galaxy A53 5G(SM-A536E)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/G/U/1CMFAH-d.jpg";
-   }
-
-if (username=="kgosimabalane3@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("354747955086523");
-            model.innerHTML=("SAMSUNG Galaxy A15(SM-A155F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/k/mwVZhB-d.jpg";
-   }
-
   
  if (username=="kingrastafarah@gmail.com"){
             window.location.href=("resultsKingrasta.html");
