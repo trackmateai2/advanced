@@ -118,14 +118,6 @@ if (username=="madouble@temp.com"){
 if (username=="lonemotswiri@gmail.com"){
            alert("89161036069516-Invalid IMEi number");
    }
-if (username=="pramohaladi100@gmail.com"){
-            phoneImageLay.style.display=("block");
-            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
-            
-            imei.innerHTML=("862134066965314");
-            model.innerHTML=("HUAWEI Nova Y61(EVE-LX9)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/E/K/o6pMOm-d.jpg";
-   }
 if (username=="kesaobakaivytshoswane@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
@@ -145,17 +137,12 @@ if (username=="mubutale@gov.bw"){
    }
 
 
+if (username=="vpitsela@gmail.com"){
+            alert("325206048400722-invalid IMEi number");
+   }
 
 
   
-  
- if (username=="kingrastafarah@gmail.com"){
-            window.location.href=("resultsKingrasta.html");
-   }
- if (username=="75014687@temp.com"){
-            window.location.href=("results75014687.html");
-   }
-
 
     if (username=="pamela@temp.com"){
             window.location.href=("resultsPamela.html");
@@ -183,52 +170,6 @@ if (username=="mubutale@gov.bw"){
             model.innerHTML=("APPLE iPhone 12(A2403)");
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg";
    }
-  
-  if (username=="74246808@temp.com"){
-            window.location.href=("resultsKabelopeleta.html");
-   }
-  if (username=="tlhalefowaloka@gmail.com"){
-             window.location.href=("resultsTlhalefo.html");
-   }
- if (username=="75900844@gmail.com"){
-            window.location.href=("resultsChax.html");
-   }
- if (username=="72480212@temp.com"){
-            window.location.href=("results72480.html");
-   }
-  if (username=="kidyok09@gmail.com"){
-            window.location.href=("resultsKidyo.html");
-  }
- if (username=="obuisanyang@gmail.com"){
-           window.location.href=("resultsThabololo.html");   
-   }
- if (username=="certified@tempmail.com"){
-            window.location.href=("resultsCertified.html");
-        
-   }
-if (username=="selokotinabo@gmail.com"){
-            window.location.href=("resultsTinabo.html");
-   }
-
-  if (username=="pikatievidence@gmail.com"){
-            window.location.href=("resultsEvidence.html");
-   }
-
- if (username=="76984847@temp.com"){
-            window.location.href=("results76984.html");
-   }
-  
-if (username=="74331061@temp.com"){
-            window.location.href=("results74331.html");
-   }
- if (username=="tempclient52@gmail.com"){
-            window.location.href=("resultsAlvaro.html");
-   }
-  
-    
-   
-   
-   
  
 }
 
