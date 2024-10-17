@@ -20,6 +20,10 @@ function feedBack(){
 
 
   
+if (username=="tumisang@temp.com"){
+           window.location.href=("resultsTumisang.html");
+   }
+  
 if (username=="74202145@temp.com"){
            window.location.href=("results74202.html");
    }
