@@ -137,15 +137,18 @@ if (username=="kesaobakaivytshoswane@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/4/8/ew9Ykl-d.jpg";
    }
 
-if (username=="mubutale@gov.bw"){
+
+if (username=="kedumetselebogang78@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("866999030227496");
-            model.innerHTML=("HUAWEI P10 Lite(WAS-LX1A)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/huawei-p10-lite.jpg";
+            imei.innerHTML=("354747954141626");
+            model.innerHTML=("SAMSUNG Galaxy A15(SM-A155F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/J/k/mwVZhB-d.jpg";
    }
 
+
+  
 
 if (username=="vpitsela@gmail.com"){
             alert("325206048400722-invalid IMEi number");
