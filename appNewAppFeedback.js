@@ -18,11 +18,14 @@ function feedBack(){
 
 
 
+if (username=="71415574@temp.com"){
+           window.location.href=("results71415.html");
+   }
 
-if (username=="Boemomagang@gmail"){
+if (username=="Boemomagang@gmail.com"){
            window.location.href=("resultsBoemo.html");
    }
-if (username=="boemomagang@gmail"){
+if (username=="boemomagang@gmail.com"){
            window.location.href=("resultsBoemo.html");
    }
   
