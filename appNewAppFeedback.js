@@ -17,6 +17,14 @@ function feedBack(){
 
 
 
+  
+
+if (username=="kgopiso@temp.com"){
+           window.location.href=("resultsKgopiso.html");
+   }
+if (username=="gmasele15@gmail.com"){
+           window.location.href=("resultsKgopiso.html");
+   }
 
 if (username=="71415574@temp.com"){
            window.location.href=("results71415.html");
