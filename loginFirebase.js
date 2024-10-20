@@ -56,9 +56,9 @@ function signInFirebase(){
           var LoginLay = document.getElementById("LoginLay");
           var MainLay = document.getElementById("MainLay");
           
-          //LoginLay.style.display=("none");
-          //MainLay.style.display=("Block");
-          alert("System Server down");
+          LoginLay.style.display=("none");
+          MainLay.style.display=("Block");
+          //alert("System Server down");
           
             
         })
