@@ -133,13 +133,13 @@ if (username=="madouble@temp.com"){
 if (username=="lonemotswiri@gmail.com"){
            alert("89161036069516-Invalid IMEi number");
    }
-if (username=="kesaobakaivytshoswane@gmail.com"){
+if (username=="leroygaolekwe123@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("356943548797142");
-            model.innerHTML=("TECNO Camon 18");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/4/8/ew9Ykl-d.jpg";
+            imei.innerHTML=("351962793853561");
+            model.innerHTML=("SAMSUNG Galaxy A03 Core(SM-A032F)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/D/i/pQ3bO7-d.jpg";
    }
 
 
