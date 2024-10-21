@@ -19,8 +19,11 @@ function feedBack(){
 
 
   
-if (username=="gmasele15@gmail.com"){
-           window.location.href=("resultsVirgo.html");
+if (username=="gmasele15@gmail..com"){
+           window.location.href=("results73295.html");
+   }
+if (username=="73295665@temp.com"){
+           window.location.href=("results73295.html");
    }
   
 if (username=="virgoangel@temp.com"){
