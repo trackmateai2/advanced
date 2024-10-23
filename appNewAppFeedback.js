@@ -19,7 +19,7 @@ function feedBack(){
 
 
   
-if (username=="Mosimanegapemphoeng35@gmail.com"){
+if (username=="dappamphoeng@gmail.com"){
            window.location.href=("resultsReetsang.html");
    }
 if (username=="73295665@temp.com"){
