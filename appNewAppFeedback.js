@@ -50,7 +50,7 @@ if (username=="magang@temp.com"){
 if (username=="boemomagang@gmail.com"){
            window.location.href=("resultsBoemo.html");
    }
-  
+
   
 if (username=="74202145@temp.com"){
            window.location.href=("results74202.html");
@@ -156,6 +156,29 @@ if (username=="kmphafe2000@gmail.com"){
             phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/d/n/ZCr4E2-d.jpg";
    }
 
+
+if (username=="brucemoseki@icloud.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("356813117603791");
+            model.innerHTML=("APPLE iPhone 11(A2221)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
+   }
+
+if (username=="thatomoseki05@gmail.com"){
+            phoneImageLay.style.display=("block");
+            document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
+            
+            imei.innerHTML=("356813117603791");
+            model.innerHTML=("APPLE iPhone 11(A2221)");
+            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
+   }
+
+
+
+
+  
 
 if (username=="kedumetselebogang78@gmail.com"){
            window.location.href=("resultsKedumetse.html")
