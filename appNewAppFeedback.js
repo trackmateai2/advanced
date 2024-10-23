@@ -144,13 +144,13 @@ if (username=="madouble@temp.com"){
 if (username=="lonemotswiri@gmail.com"){
            alert("89161036069516-Invalid IMEi number");
    }
-if (username=="leroygaolekwe123@gmail.com"){
+if (username=="kmphafe2000@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("351962793853561");
-            model.innerHTML=("SAMSUNG Galaxy A03 Core(SM-A032F)");
-            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/D/i/pQ3bO7-d.jpg";
+            imei.innerHTML=("864743060428281");
+            model.innerHTML=("HUAWEI Nova Y91(STG-LX2)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/d/n/ZCr4E2-d.jpg";
    }
 
 
