@@ -18,6 +18,9 @@ function feedBack(){
 
 
 
+if (username=="thubans@temp.com"){
+           window.location.href=("resultsThubans.html");
+   }
   
 if (username=="dappamphoeng@gmail.com"){
            window.location.href=("resultsReetsang.html");
