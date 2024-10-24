@@ -19,6 +19,12 @@ function feedBack(){
 
 
 
+if (username=="gnkisa31@gmail.com"){
+           window.location.href=("resultsSeleka.html");
+   }
+if (username=="seleka@temp.com"){
+           window.location.href=("resultsSeleka.html");
+   }
   
 if (username=="gmasele15@gmail.com"){
            window.location.href=("resultsPrincess.html");
