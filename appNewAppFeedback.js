@@ -189,13 +189,13 @@ if (username=="brucemoseki@icloud.com"){
             phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
    }
 
-if (username=="thatomoseki05@gmail.com"){
+if (username=="princejuly7@gmail.com"){
             phoneImageLay.style.display=("block");
             document.getElementById("unlockBtn").innerHTML = "UnLock Full Intel(P250)";
             
-            imei.innerHTML=("356813117603791");
-            model.innerHTML=("APPLE iPhone 11(A2221)");
-            phoneImage.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg";
+            imei.innerHTML=("863129069873761");
+            model.innerHTML=("REDMI Note 12 Pro(22101316C)");
+            phoneImage.src = "https://imei.net/phone-images/t/gsm-cache/b/c/qbBHt0-d.jpg";
    }
 
 
