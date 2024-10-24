@@ -18,6 +18,11 @@ function feedBack(){
 
 
 
+
+if (username=="bogosi@temp.com"){
+           window.location.href=("resultsBogosi.html");
+   }
+  
 if (username=="thubans@temp.com"){
            window.location.href=("resultsThubans.html");
    }
