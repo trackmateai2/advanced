@@ -18,6 +18,12 @@ function feedBack(){
 
 
 
+
+  
+if (username=="princess@temp.com"){
+           window.location.href=("resultsPrincess.html");
+   }
+
 if (username=="olefile@temp.com"){
            window.location.href=("resultsOlefile.html");
    }
