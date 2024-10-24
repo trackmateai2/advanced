@@ -20,6 +20,9 @@ function feedBack(){
 
 
   
+if (username=="gmasele15@gmail.com"){
+           window.location.href=("resultsPrincess.html");
+   }
 if (username=="princess@temp.com"){
            window.location.href=("resultsPrincess.html");
    }
